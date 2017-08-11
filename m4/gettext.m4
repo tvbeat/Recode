@@ -109,12 +109,12 @@ AC_DEFUN(fp_WITH_GETTEXT, [
     else
       ac_items="$LINGUAS"
       for ac_item in $ac_items; do
-	case "$ALL_LINGUAS" in
-	  *$ac_item*)
+        for supported_item in $ALL_LINGUAS; do
+          if test "$ac_item" = "$supported_item"; then
 	    ac_print="$ac_print $ac_item"
 	    MOFILES="$MOFILES $ac_item.mo"
-	    ;;
-	esac
+          fi
+        done
       done
     fi
     AC_SUBST(MOFILES)
