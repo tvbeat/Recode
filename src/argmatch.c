@@ -1,3 +1,4 @@
+#include <stdlib.h>
 /* argmatch.c -- find a match for a string in an array
    Copyright (C) 1990, 1998, 1999 Free Software Foundation, Inc.
 

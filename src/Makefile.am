@@ -17,7 +17,6 @@
 # Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA
 # 02111-1307, USA.
 
-AUTOMAKE_OPTIONS = gnits ansi2knr
 bin_PROGRAMS = recode
 lib_LTLIBRARIES = librecode.la
 man_MANS = recode.1
