@@ -1073,7 +1073,7 @@ guarantee_nul_terminator (RECODE_TASK task)
   if (task->output.cursor + 4 >= task->output.limit)
     {
       RECODE_OUTER outer = task->request->outer;
-      size_t old_size = task->output.limit - task->output.buffer;
+      size_t old_size = task->output.cursor - task->output.buffer;
       size_t new_size = task->output.cursor + 4 - task->output.buffer;
 
       /* FIXME: Rethink about how the error should be reported.  */

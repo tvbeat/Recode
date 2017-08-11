@@ -1,50 +1,50 @@
-# Swedish messages for recode
-# Copyright © 1996, 1998, 2001 Free Software Foundation, Inc.
-# Jan Djärv <Jan.Djarv@mbox200.swipnet.se>, 1996, 1998, 2001.
-# Revision: 1.16
+# Mesajele în limba românã pentru pachetul recode.
+# Copyright (C) 2003 Free Software Foundation, Inc.
+# Eugen Hoanca <eugenh@urban-grafx.ro>, 2003.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: recode 3.6\n"
+"Project-Id-Version: recode-3.6\n"
 "POT-Creation-Date: 2001-01-02 22:35+0100\n"
-"PO-Revision-Date: 2001-06-12 12:54+0100\n"
-"Last-Translator: Jan Djärv <Jan.Djarv@mbox200.swipnet.se>\n"
-"Language-Team: Swedish <sv@li.org>\n"
+"PO-Revision-Date: 2003-05-04 08:45+0300\n"
+"Last-Translator: Eugen Hoanca <eugenh@urban-grafx.ro>\n"
+"Language-Team: Romanian <translation-team-ro@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Type: text/plain; charset=ISO-8859-2\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: src/main.c:142
 msgid "No error"
-msgstr "Inget fel"
+msgstr "Nici o eroare"
 
 #: src/main.c:145
 msgid "Non canonical input"
-msgstr "Indata ej kanonisk"
+msgstr "Intrare(input) non canonicã"
 
 #: src/main.c:148
 msgid "Ambiguous output"
-msgstr "Tvetydig utdata"
+msgstr "Output ambiguu"
 
 #: src/main.c:151
 msgid "Untranslatable input"
-msgstr "Oöversättbar indata"
+msgstr "Intrare(input) intraductibilã"
 
 #: src/main.c:154
 msgid "Invalid input"
-msgstr "Felaktig indata"
+msgstr "Input invalid"
 
 #: src/main.c:157
 msgid "System detected problem"
-msgstr "Systemproblem upptäcktes"
+msgstr "Sistemul a detectat o problemã"
 
 #: src/main.c:160
 msgid "Misuse of recoding library"
-msgstr "Felaktig användning av omkodningsbibliotek"
+msgstr "Folosire necorespunzãtoare a bibliotecii de recoding"
 
 #: src/main.c:163
 msgid "Internal recoding bug"
-msgstr "Internt omkodningsfel"
+msgstr "Bug intern de recoding"
 
 #: src/main.c:208
 msgid ""
@@ -62,37 +62,37 @@ msgid ""
 "along with this program; if not, write to the Free Software Foundation,\n"
 "Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.\n"
 msgstr ""
-"Följande text är en informell översättning som enbart tillhandahålls i\n"
-"informativt syfte. För alla juridiska tolkningar gäller den engelska\n"
-"originaltexten.\n"
+"Acest program este free software; puteþi sã-l redistribuiþi ºi/sau\n"
+"modificaþi sub termenii Licenþei Publice Generale GNU publicatã de\n"
+"Free Software Foundation; ori versiunea 2, sau (opþiunea dumneavoastrã)\n"
+"orice versiune ulterioarã.\n"
 "\n"
-"Detta program är fri programvara.  Du kan distribuera den och/eller modifiera\n"
-"den under villkoren i GNU General Public License, publicerad av\n"
-"Free Software Foundation, antingen version 2 eller (om du så vill)\n"
-"någon senare version.\n"
+"Acest program este distribuit în speranþa cã va fi de folos,\n"
+"dar FÃRÃ NICI O GARANÞIE; chiar fãrã presupusa garanþie a\n"
+"VANDABILITÃÞII sau MODIFICÃRII PENTRU UN SCOP PRIVAT.  Citiþi\n"
+"Licenþa Publicã Generalã GNU pentru mai multe detalii.\n"
 "\n"
-"Detta program distribueras i hopp om att det ska vara användbart,\n"
-"men UTAN NÅGON SOM HELST GARANTI, även utan den underförstådda garantin\n"
-"om SÄLJBARHET eller LÄMPLIGHET FÖR NÅGOT SPECIELLT ÄNDAMÅL. Se GNU General\n"
-"Public License för ytterligare information.\n"
-"\n"
-"Du bör ha fått en kopia av GNU General Public License\n"
-"tillsammans med detta program. Om inte, skriv till Free Software Foundation,\n"
+"Ar fi trebuit sã fi primit o copie a Licenþei Publice Generale GNU\n"
+"împreunã cu acest program; dacã nu, scrieþi la Free Software Foundation,\n"
 "Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.\n"
 
 #: src/main.c:233
 #, c-format
 msgid "Try `%s %s' for more information.\n"
-msgstr "Försök med \"%s %s\" för mer information\n"
+msgstr "Încercaþi `%s %s' pentru mai multe informaþii.\n"
 
 #: src/main.c:237
 msgid "Free `recode' converts files between various character sets and surfaces.\n"
-msgstr "Fria \"recode\" konverterar filer mellan olika teckenuppsättningar och ytor.\n"
+msgstr "`recode' este free ºi converteºte fiºiere între diferite seturi de caractere ºi înfãþiºãri(surfaces).\n"
 
 #: src/main.c:241
 #, c-format
-msgid "\nUsage: %s [OPTION]... [ [CHARSET] | REQUEST [FILE]... ]\n"
-msgstr "\nAnvändning: %s [FLAGGA]... [ [TECKENUPPSÄTTNING] | BEGÄRAN [FIL]...]\n"
+msgid ""
+"\n"
+"Usage: %s [OPTION]... [ [CHARSET] | REQUEST [FILE]... ]\n"
+msgstr ""
+"\n"
+"Folosire: %s [OPÞIUNE]... [ [SET_CARACTERE] | CERERE [FIªIER]... ]\n"
 
 #: src/main.c:244
 msgid ""
@@ -101,8 +101,9 @@ msgid ""
 "for the equivalent short option also.  Similarly for optional arguments.\n"
 msgstr ""
 "\n"
-"Om en lång flagga har ett obligatoriskt argument så är argumentet även\n"
-"obligatoriskt för motsvarade korta flagga.  Motsvarande för valfria argument.\n"
+"Dacã o opþiune lungã afiºeazã un parametru obligatoriu, atunci este\n"
+"obligatoriu ºi pentru opþiunea scurtã echivalentã.  Similar ºi în cazul\n"
+"parametrilor opþionali.\n"
 
 #: src/main.c:250
 msgid ""
@@ -118,17 +119,15 @@ msgid ""
 "      --version              output version information and exit\n"
 msgstr ""
 "\n"
-"Listningar:\n"
-"  -l, --list[=FORMAT]        visa en eller alla kända teckenuppsättningar\n"
-"  -k, --known=PAR            begränsa teckenuppsättningar till de i PAR-listan\n"
-"  -h, --header[=[LN/]NAMN]   skriv tabell NAMN för LN till standard ut\n"
-"                             och avsluta.\n"
-"  -F, --freeze-tables        skriv ut en C modul med alla tabeller\n"
-"  -T, --find-subsets         skriv ut teckenuppsättningar som är delmängder\n"
-"                             av andra\n"
-"  -C, --copyright            visa copyrightinformation och kopieringsvillkor\n"
-"      --help                 visa denna hjälptext och avsluta\n"
-"      --version              visa versionsinformation och avsluta\n"
+"Listãri:\n"
+"  -l, --list[=FORMAT]        listeazã unul sau toate seturile de caractere ºi aliasurile cunoscute\n"
+"  -k, --known=PERECHI        restricþioneaza seturile de caractere potrivit listei de PERECHIcunoscute\n"
+"  -h, --header[=[LN/]NUME]   scrie tabelul NUME la stdout folosind LN, apoi terminã\n"
+"  -F, --freeze-tables        scrie un modul C ce pãstreazã toate tabelele\n"
+"  -T, --find-subsets         raporteazã toate seturile de caractere care sunt subseturi ale altora\n"
+"  -C, --copyright            afiºeazã Copyright ºi condiþii de copiere\n"
+"      --help                 afiºeazã acest ajutor ºi terminã\n"
+"      --version              afiºeazã informaþii versiune ºi terminã\n"
 
 #: src/main.c:263
 msgid ""
@@ -142,21 +141,21 @@ msgid ""
 "      --sequence=memory   use memory buffers for sequencing passes\n"
 msgstr ""
 "\n"
-"Exekveringsalternativ:\n"
-"  -v, --verbose           förklara delsteg och rapportera framsteg\n"
-"  -q, --quiet, --silent   undertryck meddelanden om irreversibla omkodningar\n"
-"  -f, --force             gör omkodning även när den är irreversibel\n"
-"  -t, --touch             gör \"touch\" på filer som omkodas över sig själva\n"
-"  -i, --sequence=files    använd temporärfiler mellan delsteg\n"
-"      --sequence=memory   använd minnesbuffertar mellan delsteg\n"
+"Moduri operaþie:\n"
+"  -v, --verbose           explicã secvenþa de paºi ºi raporteazã desfãºurarea\n"
+"  -q, --quiet, --silent   suprimã mesajele despre recodinguri ireversibile\n"
+"  -f, --force             forþeazã recodingurile chiar ºi când nu sunt reversibile\n"
+"  -t, --touch             efectueazã `touch' pe fiºierele recodate dupã înlocuire\n"
+"  -i, --sequence=files    foloseºte fiºiere intermediare pentru treceri secvenþiale\n"
+"      --sequence=memory   foloseºte bufferele de memorie pentru trecerile secvenþiale\n"
 
 #: src/main.c:275
 msgid "  -p, --sequence=pipe     use pipe machinery for sequencing passes\n"
-msgstr "  -p, --sequence=pipe     använd rör mellan delsteg\n"
+msgstr "  -p, --sequence=pipe    foloseºte mecanismul de `pipe' pentru treceri secvenþiale\n"
 
 #: src/main.c:280
 msgid "  -p, --sequence=pipe     same as -i (on this system)\n"
-msgstr "  -p, --sequence=pipe     samma sak som -i (på detta system)\n"
+msgstr "  -p, --sequence=pipe     la fel ca -i(pe acest system)\n"
 
 #: src/main.c:285
 msgid ""
@@ -170,16 +169,13 @@ msgid ""
 "  -x, --ignore=CHARSET   ignore CHARSET while choosing a recoding path\n"
 msgstr ""
 "\n"
-"Finjustering:\n"
-"  -s, --strict           använd strikt omkodning, tillåt teckenförluster\n"
-"  -d, --diacritics       omkoda endast diakritiska tecken eller motsvarande\n"
-"                         till HTML/LaTeX\n"
-"  -S, --source[=LN]      begränsa omkodning till strängar och kommentarer\n"
-"                         som för LN\n"
-"  -c, --colons           använd kolon istället för \" för trematecken\n"
-"  -g, --graphics         approximera linjer i IBMPC med ASCII grafik\n"
-"  -x, --ignore=TECKENUPPSÄTTNING\n"
-"                         ignorera TECKENUPPSÄTTNING när omkodningsväg väljs\n"
+"Setãri de precizie(fine tuning):\n"
+"  -s, --strict           foloseºte mapãri stricte, chiar dacã se pierd caractere\n"
+"  -d, --diacritics       converteºte doar diacritice sau asemãnãtor pentru HTML/LaTeX\n"
+"  -S, --source[=LN]      limiteazã recodinguri în ºiruri ºi comentarii ca pentru LN\n"
+"  -c, --colons           foloseºte coloane în loc de ghilimele pentru diaeresis\n"
+"  -g, --graphics         aproximeazã rigle(rulers) IBMPC prin graficã ASCII\n"
+"  -x, --ignore=SET_CARACTERE   ignorã SET_CARACTERE în alegerea cãilor de recoding\n"
 
 #: src/main.c:296
 msgid ""
@@ -188,18 +184,17 @@ msgid ""
 "FORMAT is `decimal', `octal', `hexadecimal' or `full' (or one of `dohf').\n"
 msgstr ""
 "\n"
-"Flagga -l utan FORMAT och TECKENUPPSÄTTNING visar alla tillgängliga\n"
-"teckenuppsättningar och ytor.  FORMAT är \"decimal\", \"octal\", \"hexadecimal\"\n"
-"eller \"full\" (eller en av \"dohf\").\n"
+"Opþiunea -l fãrã FORMAT sau SET_CARACTERE listeazã seturile de caractere ºi\n"
+"înfãþiºãrile(surfaces) disponibile. FORMAT is `decimal', `octal',\n"
+"`hexadecimal' sau `full' (sau unul din `dohf').\n"
 
 #: src/main.c:302
 msgid ""
 "Unless DEFAULT_CHARSET is set in environment, CHARSET defaults to the locale\n"
 "dependent encoding, determined by LC_ALL, LC_CTYPE, LANG.\n"
 msgstr ""
-"Om miljövariabeln DEFAULT_CHARSET inte är satt blir standardvärdet för\n"
-"TECKENUPPSÄTTNING den lokalspecifika kodningen, som bestäms av\n"
-"miljövariablerna LC_ALL, LC_CTYPE och LANG.\n"
+"Dacã DEFAULT_CHARSET nu este setat în mediu (environment) CHARSET va fi encodarea specificã\n"
+"determinatã de LC_ALL, LC_CTYPE, LANG.\n"
 
 #: src/main.c:307
 msgid ""
@@ -207,14 +202,14 @@ msgid ""
 "both being tabular charsets, with PAIRS of the form `BEF1:AFT1,BEF2:AFT2,...'\n"
 "and BEFs and AFTs being codes are given as decimal numbers.\n"
 msgstr ""
-"Med -k, möjliga startuppsättningar visas för den givna slutuppsättningen,\n"
-"där båda teckenuppsättningar är på tabellform. PAR har formatet\n"
-"\"START1:SLUT1,START2:SLUT2,...\" och START... och SLUT... är koder\n"
-"som anges med decimala tal.\n"
+"Cu -k, seturile de caractere posibile dinainte sunt listate dupã\n"
+"SET_CARACTERE specificat, ambele fiind seturi de caractere tabulare,\n"
+"cu PERECHI de forma `BEF1:AFT1,BEF2: AFT2,...'\n"
+"unde BEF ºi AFT sunt coduri ce trebuie date ca numere zecimale.\n"
 
 #: src/main.c:312
 msgid "LN is some language, it may be `c', `perl' or `po'; `c' is the default.\n"
-msgstr "LN är ett språk, det kan vara \"c\", \"perl\" eller \"po\"; \"c\" är standardvärde.\n"
+msgstr "LN e un limbaj de programare, poate fi `c', `perl' sau `po'; `c' este implicit.\n"
 
 #: src/main.c:315
 msgid ""
@@ -226,12 +221,12 @@ msgid ""
 "with an empty surface name means no surfaces at all.  See the manual.\n"
 msgstr ""
 "\n"
-"BEGÄRAN är DELBEGÄRAN[,DELBEGÄRAN]..., DELBEGÄRAN är KODNING[..KODNING]...\n"
-"KODNING är [TECKENUPPSÄTTNING][/[YTA]].... BEGÄRAN ser ofta ut som START..SLUT,\n"
-"där START och SLUT är teckenuppsättningar.  Ett utelämnat TECKENUPPSÄTTNING\n"
-"innebär den normala teckenuppsättningen,\n"
-"en utelämnad [/YTA]... innebär den normala ytan för TECKENUPPSÄTTNING.\n"
-"Ett / utan ytnamn innebär ingen yta alls.  Se manualen för detaljer.\n"
+"CERERE(REQUEST) este SUBCERERE[,SUBCERERE]...; SUBCERERE este ENCODING[..ENCODING]...\n"
+"ENCODING is [SET_CARACTERE][/[ÎNFÃÞIªARE]]...; CERERE se prezintã ca\n"
+"PRECEDENT..ULTERIOR, cu PRECEDENT ºi ULTERIOR fiind seturi de caractere.\n"
+"Un SET_CARACTERE omis sugereazã setul de caractere obiºnuit; o [/ÎNFÃÞIªARE]\n"
+"omisã reprezintã infãþiºarea sugeratã pentru SET_CARACTERE; un /\n"
+"fãrã nume de înfãþiºare înseamnã fãrã înfãþiºãri.  Vedeþi manualul.\n"
 
 #: src/main.c:323
 msgid ""
@@ -241,123 +236,128 @@ msgid ""
 "FILE is specified, then act as a filter and recode stdin to stdout.\n"
 msgstr ""
 "\n"
-"Om ingen av -i eller -p är given så antas -p on ingen FIL är given,\n"
-"annars -i.  Varje fil omkodas över sig själv och förstör originalet.\n"
-"Om ingen FIL anges så blir beteendet ett filter som omkodar standard in\n"
-"till standard ut.\n"
+"Dacã nu sunt daþi nici unul dintre-i ºi -p, se presupune -p dacã nu FIªIER,\n"
+"altfel -i.  Fiecare FIªIER este recodat(recoded) peste sine, originalul\n"
+"pierzându-se.  Dacã nu este specificat FIªIER, atunci se comportã ca un\n"
+"filtru ºi recodeazã stdin în stdout.\n"
 
 #: src/main.c:329
-msgid "\nReport bugs to <recode-bugs@iro.umontreal.ca>.\n"
+msgid ""
+"\n"
+"Report bugs to <recode-bugs@iro.umontreal.ca>.\n"
 msgstr ""
 "\n"
-"Rapportera fel till <recode-bugs@iro.umontreal.ca>.\n"
-"Rapportera fel på översättningen till <sv@li.org>.\n"
+"Raportaþi bug-urile la <recode-bugs@iro.umontreal.ca>.\n"
 
 #: src/main.c:430
 #, c-format
 msgid "Sequence `%s' is ambiguous"
-msgstr "Sekvens \"%s\" är tvetydig"
+msgstr "Secvenþa `%s' este ambiguã"
 
 #: src/main.c:434
 #, c-format
 msgid "Sequence `%s' is unknown"
-msgstr "Sekvens \"%s\" är okänd"
+msgstr "Secvenþa `%s' nu este cunoscutã"
 
 #: src/main.c:464 src/main.c:522
 #, c-format
 msgid "Language `%s' is ambiguous"
-msgstr "Språk \"%s\" är tvetydigt"
+msgstr "Limba `%s' este ambiguã"
 
 #. -1
 #: src/main.c:468 src/main.c:526
 #, c-format
 msgid "Language `%s' is unknown"
-msgstr "Språk \"%s\" är okänt"
+msgstr "Limba `%s' nu este cunoscutã"
 
 #: src/main.c:560
 #, c-format
 msgid "Format `%s' is ambiguous"
-msgstr "Format \"%s\" är tvetydigt"
+msgstr "Formatul `%s' este ambiguu"
 
 #: src/main.c:564
 #, c-format
 msgid "Format `%s' is unknown"
-msgstr "Format \"%s\" är okänt"
+msgstr "Formatul `%s' nu este cunoscut"
 
 #: src/main.c:621
 msgid "Written by Franc,ois Pinard <pinard@iro.umontreal.ca>.\n"
-msgstr "Skriven av François Pinard <pinard@iro.umontreal.ca>.\n"
+msgstr "Scris de Franc,ois Pinard <pinard@iro.umontreal.ca>.\n"
 
 #: src/main.c:624
-msgid "\nCopyright (C) 1990, 92, 93, 94, 96, 97, 99 Free Software Foundation, Inc.\n"
-msgstr "\nCopyright © 1990, 92, 93, 94, 96, 97, 1999 Free Software Foundation, Inc.\n"
+msgid ""
+"\n"
+"Copyright (C) 1990, 92, 93, 94, 96, 97, 99 Free Software Foundation, Inc.\n"
+msgstr ""
+"\n"
+"Copyright (C) 1990, 92, 93, 94, 96, 97, 99 Free Software Foundation, Inc.\n"
 
 #: src/main.c:628
 msgid ""
 "This is free software; see the source for copying conditions.  There is NO\n"
 "warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n"
 msgstr ""
-"Detta är fri programvara; se källkoden för kopieringsvillkor.  Det finns\n"
-"INGEN garanti; inte ens för SÄLJBARHET eller LÄMPLIGHET FÖR NÅGOT SPECIELLT\n"
-"ÄNDAMÅL.\n"
+"Acesta este free software; vedeþi sursele pentur condiþiile de copiere.\n"
+"NU existã NICI o garanþie; nici mãcar pentru VANDABILITATE sau MODIFICARE\n"
+"PENTRU UN SCOP PRIVAT.\n"
 
 #: src/main.c:669
 #, c-format
 msgid "Symbol `%s' is unknown"
-msgstr "Symbol \"%s\" är okänd"
+msgstr "Simbolul `%s' nu este cunoscut"
 
 #: src/main.c:709 src/main.c:723
 #, c-format
 msgid "Charset `%s' is unknown or ambiguous"
-msgstr "Teckenuppsättning \"%s\" är okänd eller tvetydig"
+msgstr "Setul de caractere `%s' nu este cunoscut sau este ambiguu"
 
 #: src/main.c:754
 msgid "Required argument is missing"
-msgstr "Obligatoriskt argument saknas"
+msgstr "Lipseºte parametrul solicitat"
 
 #: src/main.c:797
 #, c-format
 msgid "Syntax is deprecated, please prefer `%s'"
-msgstr "Föråldrad syntax, använd hellre \"%s\""
+msgstr "Sintaxã învechitã(deprecated), utilizaþi `%s'"
 
 #: src/main.c:803
 #, c-format
 msgid "Request `%s' is erroneous"
-msgstr "Begäran \"%s\" är felaktig"
+msgstr "Cererea `%s' este greºitã"
 
 #: src/main.c:903
 #, c-format
 msgid "Recoding %s..."
-msgstr "Omkodar %s..."
+msgstr "Recodare %s..."
 
 #: src/main.c:913
 msgid " done\n"
-msgstr " klart\n"
+msgstr " finalizatã\n"
 
 #: src/main.c:954
 #, c-format
 msgid " failed: %s in step `%s..%s'\n"
-msgstr " misslyckades: %s i steg \"%s..%s\"\n"
+msgstr " eºuatã: %s în pasul `%s..%s'\n"
 
 #: src/main.c:961
 #, c-format
 msgid "%s failed: %s in step `%s..%s'"
-msgstr "%s misslyckades: %s i steg \"%s..%s\""
+msgstr "%s a eºuat: %s în pasul `%s..%s'"
 
 #: src/main.c:984
 #, c-format
 msgid "%s in step `%s..%s'"
-msgstr "%s i steg \"%s..%s\""
+msgstr "%s în pasul `%s..%s'"
 
 #: src/names.c:335
 #, c-format
 msgid "Charset %s already exists and is not %s"
-msgstr "Teckenuppsättning %s finns och är inte %s"
+msgstr "Setul de caractere %s existã deja ºi nu este %s"
 
 #: src/names.c:831
 #, c-format
 msgid "Cannot list `%s', no names available for this charset"
-msgstr "Kan inte visa \"%s\", inga namn tillgängliga för denna teckenuppsättning"
+msgstr "Nu se poate lista `%s', nici un nume disponibil pentru acest set de caractere"
 
 #. code counter
 #. expected value for code counter
@@ -366,148 +366,152 @@ msgstr "Kan inte visa \"%s\", inga namn tillgängliga för denna teckenuppsättning
 #: src/names.c:984 src/names.c:1030
 #, c-format
 msgid "Dec  Oct Hex   UCS2  Mne  %s\n"
-msgstr "dec  okt hex   UCS2  mne  %s\n"
+msgstr "Zec  Oct  Hex   UCS2  Mne  %s\n"
 
 #: src/names.c:1049
 #, c-format
 msgid "Sorry, no names available for `%s'"
-msgstr "Ledsen, men det finns inga namn tillgängliga för \"%s\""
+msgstr "Ne pare rãu, nici un nume disponibil pentru `%s'"
 
 #: src/outer.c:125
 #, c-format
 msgid "Resurfacer set more than once for `%s'"
-msgstr "Ytkodning satt mer än en gång för \"%s\""
+msgstr "Schimbãtorul de înfãþiºãri(resurfacer) setat mai multe decât o datã pentru `%s'"
 
 #: src/outer.c:133
 #, c-format
 msgid "Unsurfacer set more than once for `%s'"
-msgstr "Ytavkodning satt mer än en gång för \"%s\""
+msgstr "Schimbãtorul de înfãþiºãri(unsurfacer) setat mai mult decât o datã pentru `%s'"
 
 #: src/recode.c:115 src/recode.c:127
 msgid "Virtual memory exhausted"
-msgstr "Virtuellt minne slut"
+msgstr "Memorie virtualã plinã"
 
 #: src/recode.c:155
-#, c-format
+#, c-format, ycp-format
 msgid "Codes %3d and %3d both recode to %3d"
-msgstr "Teckenkoderna %3d och %3d omkodas båda till %3d"
+msgstr "Codurile %3d ºi %3d ambele recodate în %3d"
 
 #: src/recode.c:169
-#, c-format
+#, c-format, ycp-format
 msgid "No character recodes to %3d"
-msgstr "Inget tecken omkodas till %3d"
+msgstr "Nici un caracter recodat în %3d"
 
 #: src/recode.c:170
 msgid "Cannot invert given one-to-one table"
-msgstr "Kan inte invertera en given ett-till-ett tabell"
+msgstr "Nu se poate inversa tabela unu la unu datã"
 
 #: src/recode.c:224 src/recode.c:236
 #, c-format
 msgid "Following diagnostics for `%s' to `%s'"
-msgstr "Följande fel är för \"%s\" till \"%s\""
+msgstr "Se urmãresc diagnosticele pentru `%s' în `%s'"
 
 #: src/recode.c:229 src/recode.c:241
 #, c-format
 msgid "Pair no. %d: <%3d, %3d> conflicts with <%3d, %3d>"
-msgstr "Par nr. %d: <%3d, %3d> är i konflikt med <%3d, %3d>"
+msgstr "Perechea numãrul %d <%3d, %3d> în conflict cu <%3d, %3d>"
 
 #: src/recode.c:272
 msgid "Cannot complete table from set of known pairs"
-msgstr "Kan inte göra en tabell från mängden av kända par"
+msgstr "Nu s-a putut completa tabelul din setul de perechi cunoscute"
 
 #: src/recode.c:497
 msgid "Identity recoding, not worth a table"
-msgstr "Ingen omkodning behövs, den är inte värd en tabell"
+msgstr "Recodare de identitate, nu necesitã tabel"
 
 #: src/recode.c:504
 msgid "Recoding is too complex for a mere table"
-msgstr "Omkodning är för komplex för en enkel tabell"
+msgstr "Recodarea este prea complexã pentru un tabel simplu"
 
 #. Print the header of the header file.
 #: src/recode.c:536
 #, c-format
 msgid "%sConversion table generated mechanically by Free `%s' %s"
-msgstr "%sKonverteringstabell automatgenererad av Fri \"%s\" %s"
+msgstr "%sTabelul de conversie generat mecanic de `%s' Free %s"
 
 #: src/recode.c:538
 #, c-format
 msgid "%sfor sequence %s.%s"
-msgstr "%sför sekvens %s.%s"
+msgstr "%s pentru secvenþa %s.%s"
 
 #: src/recode.c:744
 msgid "No table to print"
-msgstr "Ingen tabell att skriva ut"
+msgstr "Nu existã tabel de tipãrit"
 
 #: src/request.c:34
 msgid "reversible"
-msgstr "reversibel"
+msgstr "reversibil"
 
 #: src/request.c:36
 #, c-format
 msgid "%s to %s"
-msgstr "%s till %s"
+msgstr "%s în %s"
 
 #: src/request.c:37 src/request.c:39
 msgid "byte"
-msgstr "byte"
+msgstr "octet"
 
 #: src/request.c:38 src/request.c:40
 msgid "ucs2"
-msgstr "usc2"
+msgstr "ucs2"
 
 #: src/request.c:38 src/request.c:40
 msgid "variable"
-msgstr "variabel"
+msgstr "variabil(ã)"
 
 #: src/request.c:111
 msgid "*Unachievable*"
-msgstr "*Omöjligt*"
+msgstr "*Neîndeplinibil*"
 
 #: src/request.c:113
 msgid "*mere copy*"
-msgstr "*endast kopiering*"
+msgstr "*copiere-simplã*"
 
 #: src/request.c:246
 msgid "Virtual memory exhausted!"
-msgstr "Virtuellt minne slut!"
+msgstr "Memorie virtualã plinã!"
 
 #: src/request.c:265
 msgid "Step initialisation failed"
-msgstr "Steginitiering misslyckades"
+msgstr "Pas de iniþializare eºuat"
 
 #: src/request.c:272
 msgid "Step initialisation failed (unprocessed options)"
-msgstr "Steginitiering misslyckades (obearbetade flaggor)"
+msgstr "Pas de iniþializare eºuat (opþiuni neprocesate)"
 
 #: src/request.c:568
 #, c-format
 msgid "Request: %s\n"
-msgstr "Begäran: %s\n"
+msgstr "Cerere: %s\n"
 
 #: src/request.c:720
 #, c-format
 msgid "Shrunk to: %s\n"
-msgstr "Krympte till: %s\n"
+msgstr "Micºorat la: %s\n"
 
 #: src/request.c:823 src/request.c:932
 #, c-format
 msgid "Unrecognised surface name `%s'"
-msgstr "Okänt ytnamn \"%s\""
+msgstr "Nume înfãþiºare necunoscut: `%s'"
 
 #: src/request.c:903
 #, c-format
 msgid "No way to recode from `%s' to `%s'"
-msgstr "Omöjligt koda om från \"%s\" till \"%s\""
+msgstr "Nici o ºansã de recodare din `%s' în `%s'"
 
 #: src/request.c:1013
 msgid "Expecting `..' in request"
-msgstr "Förväntar \"..\" i begäran"
+msgstr "Se aºteaptã `..' în cerere"
 
 #: src/task.c:826 src/task.c:1002
 #, c-format
 msgid "Child process wait status is 0x%0.2x"
-msgstr "Barnprocessens slutstatus är 0x%0.2x"
+msgstr "Starea de aºteptare a procesului derivat(child) este 0x%0.2x"
 
 #: src/testdump.c:298
-msgid "UCS2   Mne   Description\n\n"
-msgstr "UCS2   Mne   Beskrivning\n\n"
+msgid ""
+"UCS2   Mne   Description\n"
+"\n"
+msgstr ""
+"UCS2   Mne   Descriere\n"
+"\n"

@@ -21,6 +21,11 @@
 /* Make sure USE_OBSTACK is defined to 1 if you want the allocator to use
    obstacks instead of malloc, and recompile `hash.c' with same setting.  */
 
+#define hash_lookup recode_hash_lookup
+#define hash_delete recode_hash_delete
+#define hash_free   recode_hash_free
+#define hash_insert recode_hash_insert
+
 #ifndef PARAMS
 # if PROTOTYPES || __STDC__
 #  define PARAMS(Args) Args

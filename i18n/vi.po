@@ -1,50 +1,50 @@
-# Polish translations for the GNU recode messages
-# Copyright (C) 1996 Free Software Foundation, Inc.
-# Pawe� Krawczyk <kravietz@ceti.pl>, 1996, 1997, 1998, 1999.
-# Jakub Bogusz <qboosh@pld-linux.org>, 2002.
-#
+#  Vietnamese translation for recode-3.6.
+#  Copyright (C) 2005 Free Software Foundation, Inc.
+#  Clytie Siddall <clytie@riverland.net.au>, 2005.
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: recode 3.6\n"
+"Report-Msgid-Bugs-To: <recode-bugs@iro.umontreal.ca>\n"
 "POT-Creation-Date: 2001-01-02 22:35+0100\n"
-"PO-Revision-Date: 2002-10-27 12:22+0100\n"
-"Last-Translator: Jakub Bogusz <qboosh@pld-linux.org>\n"
-"Language-Team: Polish <translation-team-pl@lists.sourceforge.net>\n"
+"PO-Revision-Date: 2005-02-20 18:44+0950\n"
+"Last-Translator: Clytie Siddall <clytie@riverland.net.au>\n"
+"Language-Team: Vietnamese <gnomevi-list@lists.sourceforge.net> \n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ISO-8859-2\n"
-"Content-Transfer-Encoding: 8-bit\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
 
 #: src/main.c:142
 msgid "No error"
-msgstr "Brak b��du"
+msgstr "Không có lỗi"
 
 #: src/main.c:145
 msgid "Non canonical input"
-msgstr "Dane wej�ciowe nie s� kanoniczne"
+msgstr "Dữ liệụ gõ không đúng tiêu chuẩn"
 
 #: src/main.c:148
 msgid "Ambiguous output"
-msgstr "Dane wyj�ciowe s� dwuznaczne"
+msgstr "Dữ liệu xuất là mơ hồ"
 
 #: src/main.c:151
 msgid "Untranslatable input"
-msgstr "Dane wej�ciowe nie mog� by� przet�umaczone"
+msgstr "Dữ liệu gõ không dịch được"
 
 #: src/main.c:154
 msgid "Invalid input"
-msgstr "B��dne dane wej�ciowe"
+msgstr "Dữ liệu gõ không hợp lệ"
 
 #: src/main.c:157
 msgid "System detected problem"
-msgstr "System wykry� problem"
+msgstr "Hệ thống mới gặp lỗi"
 
 #: src/main.c:160
 msgid "Misuse of recoding library"
-msgstr "B��dne u�ycie biblioteki przekodowuj�cej"
+msgstr "Không sử dụng thư viện mã hóa lại cho đúng"
 
 #: src/main.c:163
 msgid "Internal recoding bug"
-msgstr "Wyst�pi� wewn�trzny b��d przekodowania"
+msgstr "Lỗi mã hóa lại nội  bộ"
 
 #: src/main.c:208
 msgid ""
@@ -62,32 +62,29 @@ msgid ""
 "along with this program; if not, write to the Free Software Foundation,\n"
 "Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.\n"
 msgstr ""
-"Ten program jest darmowy; mo�esz rozprowadza� go i/lub modyfikowa�\n"
-"zachowuj�c warunki Powszechnej Licencji Publicznej GNU (General Public\n"
-"Licence), opublikowanej przez Free Software Foundation, w wersji 2 lub\n"
-"wy�szej.\n"
+"Chương trình này là phần mềm tự do; bạn có thể phân phối và/hay sửa đổí\n"
+"nó với điều kiện cua Quyền Công Chung Gnu (GPL) như được xuất do\n"
+"Free Software Foundation; hoặc phiên bản 2, hoặc (tùy chọn)\n"
+"bất cứ phiên bản sau nào.\n"
 "\n"
-"Program ten jest rozprowadzany w nadziei, �e b�dzie przydatny,\n"
-"ale BEZ �ADNEJ GWARANCJI, nawet bez domy�lnej gwarancji SPRZEDAWALNO�CI\n"
-"lub PRZYDATNO�CI DO KONKRETNYCH ZASTOSOWA�. Szczeg�y znajdziesz\n"
-"w Powszechnej Licencji Publicznej GNU.\n"
+"Chúng tôi phân phối chương trình này vì mong nó có ích, nhưng\n"
+"không bảo đảm gì cả, không bảo đảm một cách ngụ ý\n"
+"khả năng bán hay khả năng làm việc dứt khoát. Hãy xem\n"
+"Quyền Công Chung Gnu để tim thấy chi tiết thêm.\n"
 "\n"
-"Powiniene� otrzyma� kopi� Powszechnej Licencji Publicznej GNU wraz\n"
-"z tym programem. Je�li nie, napisz do Free Software Foundation,\n"
-"Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.\n"
+"Bạn nên được nhận một bản Quyền Công Chung Gnu với\n"
+"chương trình này; nếu không thì hãy viết thư cho Free Software Foundation,\n"
+"Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA (Mỹ).\n"
 
 #: src/main.c:233
 #, c-format
 msgid "Try `%s %s' for more information.\n"
-msgstr "Polecenie `%s %s' wy�wietli wi�cej informacji.\n"
+msgstr "Thử lệnh `%s %s' để tìm thấy thông tin thêm.\n"
 
 #: src/main.c:237
 msgid "Free `recode' converts files between various character sets and surfaces.\n"
-msgstr ""
-"Program `recode' konwertuje pliki pomi�dzy r�nymi zestawami znak�w\n"
-"i sposobami kodowania.\n"
+msgstr "Chương trình `recode' (mã hóa lại) tự do thì chuyển đổi tập tin giữa nhiều bộ ký tự và mặt khác nhau.\n"
 
-# REQUEST t�umacz� wsz�dzie konsekwentnie jako POLECENIE, a nie '��danie' --pk
 #: src/main.c:241
 #, c-format
 msgid ""
@@ -95,7 +92,7 @@ msgid ""
 "Usage: %s [OPTION]... [ [CHARSET] | REQUEST [FILE]... ]\n"
 msgstr ""
 "\n"
-"Sk�adnia: %s [OPCJA]... [ [ZESTAW_ZNAK�W] | POLECENIE [PLIK]... ]\n"
+"Cách sử dụng: %s [TÙY_CHỌN]... [ [BỘ_KÝ_TỰ] | LỜI_YÊU_CẦU [TẬP_TIN]... ]\n"
 
 #: src/main.c:244
 msgid ""
@@ -104,8 +101,8 @@ msgid ""
 "for the equivalent short option also.  Similarly for optional arguments.\n"
 msgstr ""
 "\n"
-"Je�li argumenty s� obowi�zkowe dla d�ugich wersji opcji, to s� one r�wnie�\n"
-"obowi�zkowe dla kr�tkich wersji. Analogicznie dla argument�w opcjonalnych.\n"
+"Nếu tùy chọn dài phải có đối số thì tùy chọn ngắn thích hợp cũng vậy.\n"
+"Đối với đối số tùy chọn thì cách giống nhau.\n"
 
 #: src/main.c:250
 msgid ""
@@ -121,20 +118,15 @@ msgid ""
 "      --version              output version information and exit\n"
 msgstr ""
 "\n"
-"Listy:\n"
-"  -l, --list[=FORMAT]        wy�wietla jeden lub wszystkie znane zestawy\n"
-"                             znak�w i aliasy\n"
-"  -k, --known=PARY           ogranicza list� zestaw�w do znanych PAR\n"
-"  -h, --header[=[LN/]NAZWA]  wy�wietla tablic� NAZWA na standardowe wyj�cie\n"
-"                             u�ywaj�c LN i ko�czy prac�\n"
-"  -F, --freeze-table         wy�wietla modu� w C zawieraj�cy wszystkie\n"
-"                             tablice\n"
-"  -T, --find-subsets         wy�wietla wszystkie zestawy b�d�ce podzbiorami\n"
-"                             innych zestaw�w\n"
-"  -C, --copyright            wy�wietla informacje o prawach autorskich\n"
-"                             oraz warunkach kopiowania\n"
-"      --help                 wy�wietla ten tekst pomocy i ko�czy prac�\n"
-"      --version              wy�wietla wersj� programu i ko�czy prac�\n"
+"Danh sách:\n"
+"  -l, --list[=DẠNG]        _ghi danh sach_ một hay tất cả bộ ký tự và biệt hiệu được biết\n"
+"  -k, --known=CẶP          hạn chế bộ ký tự theo danh sách CẶP _được biết_\n"
+"  -h, --header[=[NGÔN_NGỮ/]TÊN]   ghi TÊN bảng ra thiết bị xuất chuẩn bằng sử dụng ngôn ngữ ấy rồi thoát (_đầu đề_)\n"
+"  -F, --freeze-tables        ghi ra mô-đun C chứa tất cả _bảng_ (_làm đông đặc_)\n"
+"  -T, --find-subsets         thông báo tât cả bộ ký tự là _nhóm phụ_ của bộ khác (_tìm_)\n"
+"  -C, --copyright            hiển thị các điều kiện _bản quyền_ và sao chép\n"
+"      --help                 hiển thị _trợ giúp_ này rồi thoát\n"
+"      --version              xuất thông tin _phiên bản_ rồi thoát\n"
 
 #: src/main.c:263
 msgid ""
@@ -148,24 +140,21 @@ msgid ""
 "      --sequence=memory   use memory buffers for sequencing passes\n"
 msgstr ""
 "\n"
-"Tryby pracy:\n"
-"\n"
-"  -v, --verbose           oznajmia wykonywane kroki oraz post�p pracy\n"
-"  -q, --quiet, --silent   nie wy�wietla komunikat�w o nieistotnych\n"
-"                          konwersjach\n"
-"  -f, --force             wymusza przekodowanie nawet je�li jest ono\n"
-"                          nieodwracalne\n"
-"  -t, --touch             uaktualnia czas plik�w po przekodowaniu\n"
-"  -i, --sequence=pliki    u�ywa plik�w tymczasowych mi�dzy etapami\n"
-"      --sequence=memory   u�ywa bufor�w w pami�ci mi�dzy etapami\n"
+"Chế độ thi hành:\n"
+"  -v, --verbose           giải thích dãy bước và thông báo tiến trình (_chi tiết_)\n"
+"  -q, --quiet, --silent   thu hồi các thông điệp về việc mã hóa lại không hoàn tác (_im_)\n"
+"  -f, --force             _buộc_ tất cả việc mã hóa lại ngay cả khi không thể hoàn tác\n"
+"  -t, --touch             _sờ_ mọi tập tin được mã hóa lại sau khi thay thế\n"
+"  -i, --sequence=files    sử dụng _tâp tin_ trung cấp cho việc _sắp xếp_ \n"
+"      --sequence=memory   sử dụng bộ đệm _nhớ_ cho việc _sắp xếp_\n"
 
 #: src/main.c:275
 msgid "  -p, --sequence=pipe     use pipe machinery for sequencing passes\n"
-msgstr "  -p, --sequence=pipe     u�ywa potok�w mi�dzy etapami\n"
+msgstr "  -p, --sequence=pipe     sử dụng thiết bị _ống_ cho việc _sắp xếp_\n"
 
 #: src/main.c:280
 msgid "  -p, --sequence=pipe     same as -i (on this system)\n"
-msgstr "  -p, --sequence=pipe     identyczne jak -i (w tym systemie)\n"
+msgstr "  -p, --sequence=pipe     bằng cờ -i (trên hệ điều hành này)\n"
 
 #: src/main.c:285
 msgid ""
@@ -179,17 +168,13 @@ msgid ""
 "  -x, --ignore=CHARSET   ignore CHARSET while choosing a recoding path\n"
 msgstr ""
 "\n"
-"Modyfikacja parametr�w pracy:\n"
-"\n"
-"  -s, --strict           u�ywa �cis�ego mapowania, nawet dla nie�cis�ych\n"
-"                         znak�w\n"
-"  -d, --diacritics       konwertuje tylko znaki diakrytyczne oraz symbole\n"
-"                         znak�w (takie jak w HTML i LaTeX)\n"
-"  -c, --colons           u�ywa dwukropk�w zamiast cudzys�ow�w dla oznaczenia\n"
-"                         umlautu\n"
-"  -g, --graphics         pr�buje przybli�a� ramki IBMPC znakami ASCII\n"
-"  -x, --ignore=ZESTAW    ignoruje ZESTAW znak�w podczas okre�lania drogi\n"
-"                         przekodowania\n"
+"Điều hưởng tinh:\n"
+"  -s, --strict           sử dụng ánh xạ _chặt chẽ_, ngay cả ký tự phóng\n"
+"  -d, --diacritics       chuyển đổi chỉ _dấu phụ_ hay điều như nhau đối với HTML/LaTeX\n"
+"  -S, --source[=NGÔN_NGỮ]    hạn chế việc ma hóa lại nên chỉ xử lý chuỗi và chú thích như ngôn ngữ ấy (_nguồn_)\n"
+"  -c, --colons           sử dụng _dấu hai chấm_ thay thế dấu nháy kép cho dấu tách đôi\n"
+"  -g, --graphics         ước các thước đo IBMPC bằng _đồ họa_ ASCII\n"
+"  -x, --ignore=BÔ_KÝ_TỰ   _bỏ qua_ bộ ký tự ấy khi chọn đường dẫn mã hóa lại\n"
 
 #: src/main.c:296
 msgid ""
@@ -198,18 +183,16 @@ msgid ""
 "FORMAT is `decimal', `octal', `hexadecimal' or `full' (or one of `dohf').\n"
 msgstr ""
 "\n"
-"Bez FORMATu lub ZESTAWu, opcja -l wy�wietla dost�pne zestawy i sposoby\n"
-"kodowania znak�w. FORMAT to `decimal', `octal', `hexadecimal' lub `full',\n"
-"(lub jedna z liter `dohf').\n"
+"Khi tùy chọn -l không có DẠNG hay BỘ KÝ TỰ thi ghi danh sách tất cả bộ ký tự và mặt sẵn sàng.\n"
+"DẠNG là `decimal' (thập phân), `octal' (bát phân), `hexadecimal' (thập lục phân) hay `full' (toàn) (hay một của chữ đầu `dohf').\n"
 
 #: src/main.c:302
 msgid ""
 "Unless DEFAULT_CHARSET is set in environment, CHARSET defaults to the locale\n"
 "dependent encoding, determined by LC_ALL, LC_CTYPE, LANG.\n"
 msgstr ""
-"Je�li zmienna �rodowiskowa DEFAULT_CHARSET nie jest ustawiona, domy�lnym\n"
-"zestawem znak�w jest kodowanie zale�ne od lokalizacji, okre�lonej przez\n"
-"zmienne LC_ALL, LC_CTYPE i LANG.\n"
+"Nếu chưa lập BỘ_KÝ_TỰ_MẶC_ĐỊNH trong môi trường thì LC_ALL, LC_CTYPE, LANG\n"
+"quyết định biên mã phụ thuộc vào miền địa phương, là BỘ_KÝ_TỰ mặc định\n"
 
 #: src/main.c:307
 msgid ""
@@ -217,16 +200,13 @@ msgid ""
 "both being tabular charsets, with PAIRS of the form `BEF1:AFT1,BEF2:AFT2,...'\n"
 "and BEFs and AFTs being codes are given as decimal numbers.\n"
 msgstr ""
-"Je�li podano opcj� -k, program wy�wietla zestawy znak�w z kt�rych mo�na\n"
-"dokona� konwersji do podanego ZESTAWu docelowego. Oba s� stabelaryzowanymi\n"
-"zestawami znak�w z PARAmi postaci `SK�D1:DOK�D1,SK�D2:DOK�D2...', gdzie\n"
-"SK�D i DOK�D s� kodami podanymi jako liczby dziesi�tne.\n"
+"Có thể sử dụng tùy chọn -k trước khi ghi danh sách bộ ký tự sau BỘ_KÝ_TỰ,\n"
+"cả hai bộ ký tự ấy có dạng bảng, có mọi đôi dạng `BEF1:AFT1,BEF2:AFT2,...'\n"
+"và cả hai BEF và AFT là mã dạng số thập phân.\n"
 
 #: src/main.c:312
 msgid "LN is some language, it may be `c', `perl' or `po'; `c' is the default.\n"
-msgstr ""
-"LN jest j�zykiem programowania, do wyboru `c', `perl' lub `po'.\n"
-"Domy�ln� warto�ci� jest `c'.\n"
+msgstr "LN hay NGÔN_NGỮ là một ngôn ngữ, có thể `c', `perl' hay `po'; còn `c' là mặc định.\n"
 
 #: src/main.c:315
 msgid ""
@@ -238,13 +218,12 @@ msgid ""
 "with an empty surface name means no surfaces at all.  See the manual.\n"
 msgstr ""
 "\n"
-"POLecenie to PODPOL[,PODPOL]...; PODPOLecenie to ENKOD[..ENKOD]...\n"
-"ENKOD to [ZESTAW][/[KODOWANIE]]...; POLecenie cz�sto ma posta� SK�D..DOK�D,\n"
-"gdzie SK�D i DOK�D s� zestawami znak�w. W miejsce pomini�tego zestawu\n"
-"przyjmowany jest zestaw domy�lny; W miejsce pomini�tego [/KODOWANIA]\n"
-"przyjmowany jest domy�lny spos�b kodowania dla danego ZESTawu; sam znak\n"
-"/ bez podanego KODOWANIA oznacza brak jakiegokolwiek kodowania. Szczeg�y\n"
-"w dokumentacji.\n"
+"LỜI_YÊU_CẦU là PHỤ_LỜI_YÊU_CẦU[,PHỤ_LỜI_YÊU_CẦU]...;\n"
+"PHỤ_LỜI_YÊU_CẦU là BIÊN_MÃ [..BIÊN_MÃ]... BIÊN_MÃ là [BỘ_KÝ_TỰ][/[MẶT]]...;\n"
+"LỜI_YÊU_CẦU thường hình như TRƯỚC..SAU, mà cả hai TRƯỚC và SAU là bô ký tự.\n"
+"Khi không nhập BỘ_KÝ_TỰ nên sử dụng bộ ký tự thường; khi không nhập [/MẶT]...\n"
+"nên sử dụng những mặt ngụ ý cho BỘ_KÝ_TỰ; ký tự / có tên mặt trống có nghĩa là\n"
+"không có mặt nào. Hãy xem sổ hướng dẫn.\n"
 
 #: src/main.c:323
 msgid ""
@@ -254,10 +233,9 @@ msgid ""
 "FILE is specified, then act as a filter and recode stdin to stdout.\n"
 msgstr ""
 "\n"
-"Je�li nie podano opcji -i ani -p, przyjmowana jest opcja -p je�li nie\n"
-"podano PLIKu, w przeciwnym razie -i. Ka�dy PLIK jest nadpisywany z utrat�\n"
-"oryginalnej zawarto�ci. Je�li nie podano PLIKu, program dzia�a jako filtr\n"
-"przekodowuj�c stdin na stdout.\n"
+"Nếu chưa nhận -i và -p thì giả sử -p nếu không có TẬP_TIN, nếu có thì -i.\n"
+"Sẽ mã hóa lại mỗi TẬP_TIN trên mình nên xóa bỏ điều trước. Nếu chưa ghi rõ TẬP_TIN\n"
+"thì thay quyền trình lọc và mã hóa lại dữ liệu gõ chuẩn ra thiết bị xuất chuẩn.\n"
 
 #: src/main.c:329
 msgid ""
@@ -265,42 +243,42 @@ msgid ""
 "Report bugs to <recode-bugs@iro.umontreal.ca>.\n"
 msgstr ""
 "\n"
-"Prosimy o zg�aszanie b��d�w na adres <recode-bugs@iro.umontreal.ca>.\n"
+"Hãy thông báo lỗi cho <recode-bugs@iro.umontreal.ca>.\n"
 
 #: src/main.c:430
 #, c-format
 msgid "Sequence `%s' is ambiguous"
-msgstr "Sekwencja `%s' jest niejednoznaczna"
+msgstr "Dãy `%s' mơ hồ"
 
 #: src/main.c:434
 #, c-format
 msgid "Sequence `%s' is unknown"
-msgstr "Sekwencja `%s' jest nieznana"
+msgstr "Chưa biết dãy `%s' "
 
 #: src/main.c:464 src/main.c:522
 #, c-format
 msgid "Language `%s' is ambiguous"
-msgstr "J�zyk `%s' jest niejednoznaczny"
+msgstr "Ngôn ngữ `%s' mơ hồ"
 
 #. -1
 #: src/main.c:468 src/main.c:526
 #, c-format
 msgid "Language `%s' is unknown"
-msgstr "J�zyk `%s' jest nieznany"
+msgstr "Chưa biết ngôn ngữ `%s'"
 
 #: src/main.c:560
 #, c-format
 msgid "Format `%s' is ambiguous"
-msgstr "Format `%s' jest niejednoznaczny"
+msgstr "Dạng `%s' mơ hồ"
 
 #: src/main.c:564
 #, c-format
 msgid "Format `%s' is unknown"
-msgstr "Format `%s' jest nieznany"
+msgstr "Chưa biết dạng `%s' "
 
 #: src/main.c:621
 msgid "Written by Franc,ois Pinard <pinard@iro.umontreal.ca>.\n"
-msgstr "Autorem jest Fran�ois Pinard <pinard@iro.umontreal.ca>.\n"
+msgstr "Tác giả: François Pinard <pinard@iro.umontreal.ca>.\n"
 
 #: src/main.c:624
 msgid ""
@@ -308,74 +286,73 @@ msgid ""
 "Copyright (C) 1990, 92, 93, 94, 96, 97, 99 Free Software Foundation, Inc.\n"
 msgstr ""
 "\n"
-"Copyright (C) 1990, 92, 93, 94, 96, 97, 99 Free Software Foundation, Inc.\n"
+"Bản quyền (C) năm 1990, 92, 93, 94, 96, 97, 99 Free Software Foundation, Inc.\n"
 
 #: src/main.c:628
 msgid ""
 "This is free software; see the source for copying conditions.  There is NO\n"
 "warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n"
 msgstr ""
-"Oprogramowanie darmowe; warunki jego kopiowania znajduj� si� w kodzie\n"
-"�r�d�owym. Nie podlega �adnej gwarancji, nawet gwarancji przydatno�ci\n"
-"do jakiegokolwiek zastosowania lub sprzeda�y.\n"
+"Đây là phần mềm tự do; hãy xem mã nguồn để thấy điều kiện sao chép.\n"
+"Không bảo đảm gì cả, dù khả năng bán hay khả năng làm việc dứt khoát.\n"
 
 #: src/main.c:669
 #, c-format
 msgid "Symbol `%s' is unknown"
-msgstr "Symbol `%s' jest nieznany"
+msgstr "Chưa biết ký hiệu `%s' "
 
 #: src/main.c:709 src/main.c:723
 #, c-format
 msgid "Charset `%s' is unknown or ambiguous"
-msgstr "Zestaw znak�w `%s' jest nieznany lub niejednoznaczny"
+msgstr "Bộ ký tự `%s' là chưa được biệt hoặc mơ hồ"
 
 #: src/main.c:754
 msgid "Required argument is missing"
-msgstr "Brak wymaganego parametru"
+msgstr "Thiếu đốí số bắt buộc"
 
 #: src/main.c:797
 #, c-format
 msgid "Syntax is deprecated, please prefer `%s'"
-msgstr "Odradza si� stosowanie tej sk�adni, prosz� u�ywa� `%s'"
+msgstr "Phản đối cú pháp ấy, hãy sử dụng `%s' thay thế"
 
 #: src/main.c:803
 #, c-format
 msgid "Request `%s' is erroneous"
-msgstr "Polecenie `%s' jest b��dne"
+msgstr "Lời yêu cầu `%s' không đúng"
 
 #: src/main.c:903
 #, c-format
 msgid "Recoding %s..."
-msgstr "Przekodowywanie %s..."
+msgstr "Đang mã hóa lại %s..."
 
 #: src/main.c:913
 msgid " done\n"
-msgstr " sko�czone\n"
+msgstr " xong rồi\n"
 
 #: src/main.c:954
 #, c-format
 msgid " failed: %s in step `%s..%s'\n"
-msgstr " nie powiod�o si�: %s w `%s..%s'\n"
+msgstr " không xong được: %s trong bước `%s..%s'\n"
 
 #: src/main.c:961
 #, c-format
 msgid "%s failed: %s in step `%s..%s'"
-msgstr "%s nie powiod�o si�: %s w `%s..%s'"
+msgstr "%s không xong được: %s trong bước `%s..%s'"
 
 #: src/main.c:984
 #, c-format
 msgid "%s in step `%s..%s'"
-msgstr "%s w `%s..%s'"
+msgstr "%s trong bước `%s..%s'"
 
 #: src/names.c:335
 #, c-format
 msgid "Charset %s already exists and is not %s"
-msgstr "Zestaw %s ju� istnieje i nie jest %s"
+msgstr "Bộ ký tự %s tồn tại rồi, không là %s"
 
 #: src/names.c:831
 #, c-format
 msgid "Cannot list `%s', no names available for this charset"
-msgstr "Nie mog� wylistowa� `%s', brak nazw dla tego zestawu znak�w"
+msgstr "Không ghi `%s' được vì không có tên nào cho bộ ký tự này"
 
 #. code counter
 #. expected value for code counter
@@ -384,90 +361,90 @@ msgstr "Nie mog� wylistowa� `%s', brak nazw dla tego zestawu znak�w"
 #: src/names.c:984 src/names.c:1030
 #, c-format
 msgid "Dec  Oct Hex   UCS2  Mne  %s\n"
-msgstr "Dec  Okt Hex   UCS2  Mne  %s\n"
+msgstr "Hệ2  Hệ8  Hệ16   UCS2  Nhớ  %s\n"
 
 #: src/names.c:1049
 #, c-format
 msgid "Sorry, no names available for `%s'"
-msgstr "Brak nazw dla `%s'"
+msgstr "Tiếc là không có tên nào cho `%s'"
 
 #: src/outer.c:125
 #, c-format
 msgid "Resurfacer set more than once for `%s'"
-msgstr "Procedura rekoduj�ca zosta�a ustawiona wi�cej ni� raz dla `%s'"
+msgstr "Đã lập việc tạo mặt lại hơn một lần cho `%s'"
 
 #: src/outer.c:133
 #, c-format
 msgid "Unsurfacer set more than once for `%s'"
-msgstr "Procedura dekoduj�ca zosta�a ustawiona wi�cej ni� raz dla `%s'"
+msgstr "Đã lập việc bỏ mặt hơn một lần cho `%s'"
 
 #: src/recode.c:115 src/recode.c:127
 msgid "Virtual memory exhausted"
-msgstr "Pami�� wirtualna wyczerpana"
+msgstr "Hết bộ nhớ ảo rồì"
 
 #: src/recode.c:155
 #, c-format, ycp-format
 msgid "Codes %3d and %3d both recode to %3d"
-msgstr "Kody %3d i %3d oba t�umacz� si� na %3d"
+msgstr "Có mã hóa lại cả hai mã %3d và %3d thành %3d"
 
 #: src/recode.c:169
 #, c-format, ycp-format
 msgid "No character recodes to %3d"
-msgstr "�aden znak nie koduje si� na %3d"
+msgstr "Không mã hóa lại ký tự nào thành %3d"
 
 #: src/recode.c:170
 msgid "Cannot invert given one-to-one table"
-msgstr "Nie mog� odwr�ci� danej tablicy "
+msgstr "Không đảo được bảng một-đối-một đã cho"
 
 #: src/recode.c:224 src/recode.c:236
 #, c-format
 msgid "Following diagnostics for `%s' to `%s'"
-msgstr "Diagnostyka dla `%s' do `%s'"
+msgstr "Đang theo phương pháp chẩn đoán cho `%s' đến `%s'"
 
 #: src/recode.c:229 src/recode.c:241
 #, c-format
 msgid "Pair no. %d: <%3d, %3d> conflicts with <%3d, %3d>"
-msgstr "Para nr %d: < %3d, %3d > konflikt z < %3d, %3d >"
+msgstr "Số cặp %d: <%3d, %3d> xung đột với <%3d, %3d>"
 
 #: src/recode.c:272
 msgid "Cannot complete table from set of known pairs"
-msgstr "Nie mog� utworzy� tablicy z zestawu znanych par"
+msgstr "Không thể xong tạo bảng từ bộ cặp được biết"
 
 #: src/recode.c:497
 msgid "Identity recoding, not worth a table"
-msgstr "Przekodowanie jest proste, tablica nie jest potrzebna"
+msgstr "Việc mã hóa lại chỉ giống hệt, không cần bảng toàn"
 
 #: src/recode.c:504
 msgid "Recoding is too complex for a mere table"
-msgstr "Przekodowanie jest zbyt skomplikowane na zwyk�� tablic�"
+msgstr "Việc mã hóa lại quá phức tạp đối với bảng"
 
 #. Print the header of the header file.
 #: src/recode.c:536
 #, c-format
 msgid "%sConversion table generated mechanically by Free `%s' %s"
-msgstr "%sTablica przekodowa� wygenerowana automatycznie przez GNU `%s' %s."
+msgstr "%sBảng chuyển đổi được tạo ra tự động do Free (Tự do) `%s' %s"
 
 #: src/recode.c:538
 #, c-format
 msgid "%sfor sequence %s.%s"
-msgstr "%sdla sekwencji %s.%s"
+msgstr "%sđối với dãy %s.%s"
 
 #: src/recode.c:744
 msgid "No table to print"
-msgstr "Brak tablicy do wypisania"
+msgstr "Không có bảng nào để in"
 
 #: src/request.c:34
 msgid "reversible"
-msgstr "odwracalna"
+msgstr "có thể hoàn tác"
 
 #: src/request.c:36
 #, c-format
 msgid "%s to %s"
-msgstr "%s na %s"
+msgstr "%s thành %s"
 
 #: src/request.c:37 src/request.c:39
 msgid "byte"
-msgstr "bajt"
+msgstr "byte"
 
 #: src/request.c:38 src/request.c:40
 msgid "ucs2"
@@ -475,61 +452,61 @@ msgstr "ucs2"
 
 #: src/request.c:38 src/request.c:40
 msgid "variable"
-msgstr "zmienne"
+msgstr "biến đổi"
 
 #: src/request.c:111
 msgid "*Unachievable*"
-msgstr "*Nieosi�galne*"
+msgstr "*Không xong đươc*"
 
 #: src/request.c:113
 msgid "*mere copy*"
-msgstr "*zwyk�a kopia*"
+msgstr "*chỉ bản sao*"
 
 #: src/request.c:246
 msgid "Virtual memory exhausted!"
-msgstr "Pami�� wirtualna wyczerpana!"
+msgstr "Hết bộ nhớ ảo rồi."
 
 #: src/request.c:265
 msgid "Step initialisation failed"
-msgstr "Inicjalizacja kroku nie powiod�a si�"
+msgstr "Không khởi động bước được"
 
 #: src/request.c:272
 msgid "Step initialisation failed (unprocessed options)"
-msgstr "Inicjalizacja kroku nie powiod�a si� (nieprzetworzone opcje)"
+msgstr "Không khởi động bước được (chưa xử lý tùy chọn)"
 
 #: src/request.c:568
 #, c-format
 msgid "Request: %s\n"
-msgstr "Polecenie: %s\n"
+msgstr "Lời yêu cầu: %s\n"
 
 #: src/request.c:720
 #, c-format
 msgid "Shrunk to: %s\n"
-msgstr "Zmniejszony do: %s\n"
+msgstr "Đã co lại cho: %s\n"
 
 #: src/request.c:823 src/request.c:932
 #, c-format
 msgid "Unrecognised surface name `%s'"
-msgstr "Nierozpoznana nazwa standardu kodowania `%s'"
+msgstr "Chưa chấp nhận tên mặt `%s'"
 
 #: src/request.c:903
 #, c-format
 msgid "No way to recode from `%s' to `%s'"
-msgstr "Przekodowanie `%s' na `%s' jest niemo�liwe"
+msgstr "Không có cách mã hóa lại tư `%s' sang `%s'"
 
 #: src/request.c:1013
 msgid "Expecting `..' in request"
-msgstr "Oczekiwano `..' w poleceniu"
+msgstr "Đang ngờ `..' trong lời yêu cầu"
 
 #: src/task.c:826 src/task.c:1002
 #, c-format
 msgid "Child process wait status is 0x%0.2x"
-msgstr "Stan oczekiwania procesu potomnego wynosi 0x%0.2x"
+msgstr "Trạng thái đời của xử lý con là 0x%0.2x"
 
 #: src/testdump.c:298
 msgid ""
 "UCS2   Mne   Description\n"
 "\n"
 msgstr ""
-"UCS2   Mne   Description\n"
+"UCS2   Nhớ   Mô tả\n"
 "\n"

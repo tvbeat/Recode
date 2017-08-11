@@ -1,50 +1,49 @@
-# Swedish messages for recode
-# Copyright © 1996, 1998, 2001 Free Software Foundation, Inc.
-# Jan Djהrv <Jan.Djarv@mbox200.swipnet.se>, 1996, 1998, 2001.
-# Revision: 1.16
+# Hebrew messages for Free recode          -*- coding: hebrew-iso-8bit -*-
+# Copyright (C) 2001 Free Software Foundation, Inc.
+# Eli Zaretskii <eliz@is.elta.co.il>, 2001.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: recode 3.6\n"
+"Project-Id-Version: Free recode 3.6\n"
 "POT-Creation-Date: 2001-01-02 22:35+0100\n"
-"PO-Revision-Date: 2001-06-12 12:54+0100\n"
-"Last-Translator: Jan Djהrv <Jan.Djarv@mbox200.swipnet.se>\n"
-"Language-Team: Swedish <sv@li.org>\n"
+"PO-Revision-Date: 2001-05-27 17:06+0300\n"
+"Last-Translator: Eli Zaretskii <eliz@gnu.org>\n"
+"Language-Team: Hebrew <eliz@gnu.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ISO-8859-1\n"
-"Content-Transfer-Encoding: 8bit\n"
+"Content-Type: text/plain; charset=ISO-8859-8\n"
+"Content-Transfer-Encoding: 8-bit\n"
 
 #: src/main.c:142
 msgid "No error"
-msgstr "Inget fel"
+msgstr "תואיגש ןיא"
 
 #: src/main.c:145
 msgid "Non canonical input"
-msgstr "Indata ej kanonisk"
+msgstr "ינקת וניא טלק"
 
 #: src/main.c:148
 msgid "Ambiguous output"
-msgstr "Tvetydig utdata"
+msgstr "יעמשמ-דח וניא טלפ"
 
 #: src/main.c:151
 msgid "Untranslatable input"
-msgstr "Oצversהttbar indata"
+msgstr "הרמתהל ןתינ וניא טלק"
 
 #: src/main.c:154
 msgid "Invalid input"
-msgstr "Felaktig indata"
+msgstr "םירכומ םניאש םידוק ללוכ טלק"
 
 #: src/main.c:157
 msgid "System detected problem"
-msgstr "Systemproblem upptהcktes"
+msgstr "תכרעמ תלקת"
 
 #: src/main.c:160
 msgid "Misuse of recoding library"
-msgstr "Felaktig anvהndning av omkodningsbibliotek"
+msgstr "דודיק תורמתה תיירפסב יוגש שומיש"
 
 #: src/main.c:163
 msgid "Internal recoding bug"
-msgstr "Internt omkodningsfel"
+msgstr "דודיק תרמתה ךילהתב תימינפ הלקת"
 
 #: src/main.c:208
 msgid ""
@@ -62,37 +61,33 @@ msgid ""
 "along with this program; if not, write to the Free Software Foundation,\n"
 "Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.\n"
 msgstr ""
-"Fצljande text הr en informell צversהttning som enbart tillhandahוlls i\n"
-"informativt syfte. Fצr alla juridiska tolkningar gהller den engelska\n"
-"originaltexten.\n"
+"       ףופכב התונשל וא/ו הציפהל ךתוכז ;תישפח הנכת הניה וז תינכת\n"
+"       י\"ע רואל אצויה ,GNU General Public License ןוישרה יאנתל\n"
+"           םאו ,ןוישרה לש 2 אסרגב םא  ;Free Software Foundation\n"
+"                      .רתוי תרחואמ אסרג לכב (ךל הרומשה היצפואכ)\n"
 "\n"
-"Detta program הr fri programvara.  Du kan distribuera den och/eller modifiera\n"
-"den under villkoren i GNU General Public License, publicerad av\n"
-"Free Software Foundation, antingen version 2 eller (om du sו vill)\n"
-"nוgon senare version.\n"
+"                     ,תלעות איבת איהש הווקת ךותמ תצפומ וז תינכת\n"
+"                 עמתשמב-תוירחא אל וליפא ;תוירחא בתכ לכ אלל םלוא\n"
+"                 ,םיטרפל .תמיוסמ תילכת וזיאל המאתה וא תוריחס לש\n"
+"                         .GNU General Public License-ב ןייע אנא\n"
 "\n"
-"Detta program distribueras i hopp om att det ska vara anvהndbart,\n"
-"men UTAN NÅGON SOM HELST GARANTI, הven utan den underfצrstוdda garantin\n"
-"om SÄLJBARHET eller LÄMPLIGHET FÖR NÅGOT SPECIELLT ÄNDAMÅL. Se GNU General\n"
-"Public License fצr ytterligare information.\n"
-"\n"
-"Du bצr ha fוtt en kopia av GNU General Public License\n"
-"tillsammans med detta program. Om inte, skriv till Free Software Foundation,\n"
-"Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.\n"
+";GNU General Public License לש קתועב הוולמ תויהל הרומא וז תינכת\n"
+"    Free Software Foundation, Inc.-ל בותכ אנא ,ותוא תלביק אל םא\n"
+"      .59 Temple Place - Suite 330, Boston, MA  02111-1307, USA\n"
 
 #: src/main.c:233
 #, c-format
 msgid "Try `%s %s' for more information.\n"
-msgstr "Fצrsצk med \"%s %s\" fצr mer information\n"
+msgstr ".`%s %s' דלקה ,וז הנכותב שומיש לע ףסונ עדימ תלבקל\n"
 
 #: src/main.c:237
 msgid "Free `recode' converts files between various character sets and surfaces.\n"
-msgstr "Fria \"recode\" konverterar filer mellan olika teckenuppsהttningar och ytor.\n"
+msgstr "        .תונוש תופיטעו םיוות תוצובק ןיב םיצבק הרימתמ Free `recode' תינכות\n"
 
 #: src/main.c:241
 #, c-format
 msgid "\nUsage: %s [OPTION]... [ [CHARSET] | REQUEST [FILE]... ]\n"
-msgstr "\nAnvהndning: %s [FLAGGA]... [ [TECKENUPPSÄTTNING] | BEGÄRAN [FIL]...]\n"
+msgstr "\n%s [םינייפאמ]... [ [המישמ | םיוות תצובק [ץבוק]... ]         :שומישה ןפוא\n"
 
 #: src/main.c:244
 msgid ""
@@ -101,8 +96,8 @@ msgid ""
 "for the equivalent short option also.  Similarly for optional arguments.\n"
 msgstr ""
 "\n"
-"Om en lוng flagga har ett obligatoriskt argument sו הr argumentet הven\n"
-"obligatoriskt fצr motsvarade korta flagga.  Motsvarande fצr valfria argument.\n"
+"   רובע םג יחרכה אוה זא ,יחרכהכ טנמוגראה תא הארמ הכוראה ותרוצב ןייפאמ םא\n"
+"      .םייחרכה םניאש םיטנמוגרא רובע םג ךכו .ןייפאמ ותוא לש תרצוקמה הרוצה\n"
 
 #: src/main.c:250
 msgid ""
@@ -118,17 +113,15 @@ msgid ""
 "      --version              output version information and exit\n"
 msgstr ""
 "\n"
-"Listningar:\n"
-"  -l, --list[=FORMAT]        visa en eller alla kהnda teckenuppsהttningar\n"
-"  -k, --known=PAR            begrהnsa teckenuppsהttningar till de i PAR-listan\n"
-"  -h, --header[=[LN/]NAMN]   skriv tabell NAMN fצr LN till standard ut\n"
-"                             och avsluta.\n"
-"  -F, --freeze-tables        skriv ut en C modul med alla tabeller\n"
-"  -T, --find-subsets         skriv ut teckenuppsהttningar som הr delmהngder\n"
-"                             av andra\n"
-"  -C, --copyright            visa copyrightinformation och kopieringsvillkor\n"
-"      --help                 visa denna hjהlptext och avsluta\n"
-"      --version              visa versionsinformation och avsluta\n"
+"                                                                    :תומישר\n"
+" םייפולח תומשו םיוותה תוצובק לכ וא תחא הצובק גצה   -l, --list[=טמרופ]\n"
+"םיעודי תוגוז תמישרל תומיאתמה םיוות תוצובק קר גצה   -k, --known=תוגוז\n"
+"        LN תונכת תפשל המיאתמה NAME םשב הלבט םושר   -h, --header[=[LN/]NAME]\n"
+"       תואלבטה לכ תא ליכמה C תפשב רוקמ ץבוק םושר   -F, --freeze-tables\n"
+"תורחא תוצובק לש תוצובק-תת ןניהש םיוות תוצובק גצה   -T, --find-subsets\n"
+"                   הקתעה יאנתו םירצוי תויוכז גצה   -C, --copyright\n"
+"                                 הז הרזע ךסמ גצה       --help\n"
+"                             תינכתה תסריג תא גצה       --version\n"
 
 #: src/main.c:263
 msgid ""
@@ -142,21 +135,21 @@ msgid ""
 "      --sequence=memory   use memory buffers for sequencing passes\n"
 msgstr ""
 "\n"
-"Exekveringsalternativ:\n"
-"  -v, --verbose           fצrklara delsteg och rapportera framsteg\n"
-"  -q, --quiet, --silent   undertryck meddelanden om irreversibla omkodningar\n"
-"  -f, --force             gצr omkodning הven nהr den הr irreversibel\n"
-"  -t, --touch             gצr \"touch\" pו filer som omkodas צver sig sjהlva\n"
-"  -i, --sequence=files    anvהnd temporהrfiler mellan delsteg\n"
-"      --sequence=memory   anvהnd minnesbuffertar mellan delsteg\n"
+"                                                               :הלועפ ינפוא\n"
+"              תומדקתה חוודו תולועפה תרדס תא רבסה   -v, --verbose\n"
+"           תוכיפה-יתלב תורמתה לע תועדוה סיפדת לא   -q, --quiet, --silent\n"
+"                      הכיפה הניא םא םג הרמתה עצב   -f, --force\n"
+"           םבותכיש ירחא םיצבק לש ןמזה תמיתח ןכדע   -t, --touch\n"
+"תורמתה תרדס לש םייניב תואצות תריגאל םיצבקב שמתשה   -i, --sequence=files\n"
+"       ןורכזב תורמתה תרדס לש םייניבה תואצות רוגא       --sequence=memory\n"
 
 #: src/main.c:275
 msgid "  -p, --sequence=pipe     use pipe machinery for sequencing passes\n"
-msgstr "  -p, --sequence=pipe     anvהnd rצr mellan delsteg\n"
+msgstr "    תורמתה תרדס עוציבל (pipe) קיפאב שמתשה   -p, --sequence=pipe\n"
 
 #: src/main.c:280
 msgid "  -p, --sequence=pipe     same as -i (on this system)\n"
-msgstr "  -p, --sequence=pipe     samma sak som -i (pו detta system)\n"
+msgstr "                       (וז תכרעמב) -i ומכ   -p, --sequence=pipe\n"
 
 #: src/main.c:285
 msgid ""
@@ -170,16 +163,13 @@ msgid ""
 "  -x, --ignore=CHARSET   ignore CHARSET while choosing a recoding path\n"
 msgstr ""
 "\n"
-"Finjustering:\n"
-"  -s, --strict           anvהnd strikt omkodning, tillוt teckenfצrluster\n"
-"  -d, --diacritics       omkoda endast diakritiska tecken eller motsvarande\n"
-"                         till HTML/LaTeX\n"
-"  -S, --source[=LN]      begrהnsa omkodning till strהngar och kommentarer\n"
-"                         som fצr LN\n"
-"  -c, --colons           anvהnd kolon istהllet fצr \" fצr trematecken\n"
-"  -g, --graphics         approximera linjer i IBMPC med ASCII grafik\n"
-"  -x, --ignore=TECKENUPPSÄTTNING\n"
-"                         ignorera TECKENUPPSÄTTNING nהr omkodningsvהg vהljs\n"
+"                                                               ןידע ןונוויכ\n"
+"     םיוות דוביא ריחמב וליפא ,רימחמ יופימב שמתשה   -s, --strict\n"
+"    LaTeX-ו HTML רובע םיטירקאיד םע םיוות קר רמתה   -d, --diacritics\n"
+"   LN תונכת תפש תחנהב תורעהו תוזורחמל הרמתה לבגה   -S, --source[=LN]\n"
+"    סיסראיד ןומיסל םיישרג םוקמב םייתודוקנב שמתשה   -c, --colons\n"
+"     ASCII יוות המכ י\"ע IBM לש םייפרג םיוות ברק   -g, --graphics\n"
+" הרמתה ביתנ תריחב תעב CHARSET םיוות תצובקמ םלעתה   -x, --ignore=CHARSET\n"
 
 #: src/main.c:296
 msgid ""
@@ -188,18 +178,17 @@ msgid ""
 "FORMAT is `decimal', `octal', `hexadecimal' or `full' (or one of `dohf').\n"
 msgstr ""
 "\n"
-"Flagga -l utan FORMAT och TECKENUPPSÄTTNING visar alla tillgהngliga\n"
-"teckenuppsהttningar och ytor.  FORMAT הr \"decimal\", \"octal\", \"hexadecimal\"\n"
-"eller \"full\" (eller en av \"dohf\").\n"
+".תופיטעהו םיוותה תוצובק לכ תא גיצמ םיוות תצובק וא טמרופ ןויצ אלל -l ןייפאמ\n"
+"  תחא תוא וא) `full' וא `hexadecimal' ,`octal' ,`decimal' תויהל לוכי טמרופ\n"
+"                                                      .(`dohf' הצובקה ךותמ\n"
 
 #: src/main.c:302
 msgid ""
 "Unless DEFAULT_CHARSET is set in environment, CHARSET defaults to the locale\n"
 "dependent encoding, determined by LC_ALL, LC_CTYPE, LANG.\n"
 msgstr ""
-"Om miljצvariabeln DEFAULT_CHARSET inte הr satt blir standardvהrdet fצr\n"
-"TECKENUPPSÄTTNING den lokalspecifika kodningen, som bestהms av\n"
-"miljצvariablerna LC_ALL, LC_CTYPE och LANG.\n"
+"     םיוות תצובק לש לדחמה תרירב ,רדגומ וניא DEFAULT_CHARSET הביבס הנתשמ םא\n"
+".LANG, LC_CTYPE, LC_ALL םינתשמ יכרע ךותמ עמתשמכ תוילאקול תונוכת י\"ע תעבקנ\n"
 
 #: src/main.c:307
 msgid ""
@@ -207,14 +196,12 @@ msgid ""
 "both being tabular charsets, with PAIRS of the form `BEF1:AFT1,BEF2:AFT2,...'\n"
 "and BEFs and AFTs being codes are given as decimal numbers.\n"
 msgstr ""
-"Med -k, mצjliga startuppsהttningar visas fצr den givna slutuppsהttningen,\n"
-"dהr bוda teckenuppsהttningar הr pו tabellform. PAR har formatet\n"
-"\"START1:SLUT1,START2:SLUT2,...\" och START... och SLUT... הr koder\n"
-"som anges med decimala tal.\n"
+" תוגוז תא תמאות דעיה תצובקל ןתרמתה רשא םיוותה תוצובק לכ הנגצות ,-k תוחכונב\n"
+".םיינורשע םידוק םה AFT-ו BEF-ו ,`BEF1:AFT1,BEF2:AFT2,...'-כ םינותנה םיוותה\n"
 
 #: src/main.c:312
 msgid "LN is some language, it may be `c', `perl' or `po'; `c' is the default.\n"
-msgstr "LN הr ett sprוk, det kan vara \"c\", \"perl\" eller \"po\"; \"c\" הr standardvהrde.\n"
+msgstr "            .`c' איה לדחמה תרירב ;`po' וא ,`perl' ,`c' :תונכת תפש ןייצמ LN\n"
 
 #: src/main.c:315
 msgid ""
@@ -226,12 +213,12 @@ msgid ""
 "with an empty surface name means no surfaces at all.  See the manual.\n"
 msgstr ""
 "\n"
-"BEGÄRAN הr DELBEGÄRAN[,DELBEGÄRAN]..., DELBEGÄRAN הr KODNING[..KODNING]...\n"
-"KODNING הr [TECKENUPPSÄTTNING][/[YTA]].... BEGÄRAN ser ofta ut som START..SLUT,\n"
-"dהr START och SLUT הr teckenuppsהttningar.  Ett utelהmnat TECKENUPPSÄTTNING\n"
-"innebהr den normala teckenuppsהttningen,\n"
-"en utelהmnad [/YTA]... innebהr den normala ytan fצr TECKENUPPSÄTTNING.\n"
-"Ett / utan ytnamn innebהr ingen yta alls.  Se manualen fצr detaljer.\n"
+":ותרוצ SUBREQUEST לכו SUBREQUEST[,SUBREQUEST]...:ותרוצ (REQUEST) המישמ ןויצ\n"
+" .[CHARSET][/[SURFACE]]... :ותרוצ (דודיק) ENCODING .ENCODING[..ENCODING]...\n"
+" תטמשה .םיוות תוצובק ןניה AFTER-ו BEFORE ;BEFORE..AFTER-כ הנותנ המישמ כ\"דב\n"
+" השוריפ [/SURFACE] הפיטע תטמשה ;הליגר םיוות תצובק השוריפ CHARSET םיות תצובק\n"
+" לכ רדעיה ושוריפ הפיטע םש אלל / ןויצ .הנותנ םיוות תצובק רובע תלבוקמה הפיטעה\n"
+"                                     .שמתשמל ךירדמב ןייע ,טוריפ רתיל .הפיטע\n"
 
 #: src/main.c:323
 msgid ""
@@ -241,123 +228,121 @@ msgid ""
 "FILE is specified, then act as a filter and recode stdin to stdout.\n"
 msgstr ""
 "\n"
-"Om ingen av -i eller -p הr given sו antas -p on ingen FIL הr given,\n"
-"annars -i.  Varje fil omkodas צver sig sjהlv och fצrstצr originalet.\n"
-"Om ingen FIL anges sו blir beteendet ett filter som omkodar standard in\n"
-"till standard ut.\n"
+".-i יפל תרחא ,FILE טנמוגרא רדעיהב -p יפל לעפ ,-p אל ףאו -i אל םינותנ אל םא\n"
+"   ףא םינייצמ ןיא םא .תמלענ תירוקמה ותלוכתו ,הרמתה ךות בתכושמ FILE ץבוק לכ\n"
+"    .ינקת טלפ ץורעל הרמתה תואצות בותכו ינקת טלק ץורע ארק :רטליפכ לעפ ,FILE\n"
 
 #: src/main.c:329
 msgid "\nReport bugs to <recode-bugs@iro.umontreal.ca>.\n"
-msgstr ""
-"\n"
-"Rapportera fel till <recode-bugs@iro.umontreal.ca>.\n"
-"Rapportera fel pו צversהttningen till <sv@li.org>.\n"
+msgstr "\n        .<recode-bugs@iro.umontreal.ca> תבותכל (bugs) הלקת יחוויד חולשל אנ\n"
 
 #: src/main.c:430
 #, c-format
 msgid "Sequence `%s' is ambiguous"
-msgstr "Sekvens \"%s\" הr tvetydig"
+msgstr "--sequence ןייפאמל טנמוגרא לש יעמשמ-דח רוציק וניא `%s'"
 
 #: src/main.c:434
 #, c-format
 msgid "Sequence `%s' is unknown"
-msgstr "Sekvens \"%s\" הr okהnd"
+msgstr "--sequence ןייפאמל רכומ טנמוגרא וניא `%s'"
 
 #: src/main.c:464 src/main.c:522
 #, c-format
 msgid "Language `%s' is ambiguous"
-msgstr "Sprוk \"%s\" הr tvetydigt"
+msgstr "תונכת תפש לש יעמשמ-דח רוציק וניא `%s'"
 
 #. -1
 #: src/main.c:468 src/main.c:526
 #, c-format
 msgid "Language `%s' is unknown"
-msgstr "Sprוk \"%s\" הr okהnt"
+msgstr "תרכומ תונכת תפש הניא `%s'"
 
 #: src/main.c:560
 #, c-format
 msgid "Format `%s' is ambiguous"
-msgstr "Format \"%s\" הr tvetydigt"
+msgstr "טמרופ לש יעמשמ-דח רוציק וניא `%s'"
 
 #: src/main.c:564
 #, c-format
 msgid "Format `%s' is unknown"
-msgstr "Format \"%s\" הr okהnt"
+msgstr "רכומ טמרופ וניא `%s'"
 
 #: src/main.c:621
 msgid "Written by Franc,ois Pinard <pinard@iro.umontreal.ca>.\n"
-msgstr "Skriven av Franחois Pinard <pinard@iro.umontreal.ca>.\n"
+msgstr ".Franc,ois Pinard <pinard@iro.umontreal.ca> י\"ע הבתכנ וז תינכת\n"
 
 #: src/main.c:624
 msgid "\nCopyright (C) 1990, 92, 93, 94, 96, 97, 99 Free Software Foundation, Inc.\n"
-msgstr "\nCopyright © 1990, 92, 93, 94, 96, 97, 1999 Free Software Foundation, Inc.\n"
+msgstr "\nFree Software Foundation-ל תורומש תויוכזה לכ (C) 1990,92,93,94,96,97,99\n"
 
 #: src/main.c:628
 msgid ""
 "This is free software; see the source for copying conditions.  There is NO\n"
 "warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n"
 msgstr ""
-"Detta הr fri programvara; se kהllkoden fצr kopieringsvillkor.  Det finns\n"
-"INGEN garanti; inte ens fצr SÄLJBARHET eller LÄMPLIGHET FÖR NÅGOT SPECIELLT\n"
-"ÄNDAMÅL.\n"
+"וליפא ;תוירחא לכ ןיא .רוקמ יצבקב ןייע ,הקתעה יאנת לע עדימל ;תישפח הנכת יהוז\n"
+"                    .תמיוסמ תילכת וזיאל המאתה וא תוריחס לש עמתשמב-תוירחא אל\n"
 
 #: src/main.c:669
 #, c-format
 msgid "Symbol `%s' is unknown"
-msgstr "Symbol \"%s\" הr okהnd"
+msgstr "תרכומ םיוות תצובק הניא `%s'"
 
 #: src/main.c:709 src/main.c:723
 #, c-format
 msgid "Charset `%s' is unknown or ambiguous"
-msgstr "Teckenuppsהttning \"%s\" הr okהnd eller tvetydig"
+msgstr "תרכומ םיוות תצובק לש יעמשמ-דח רוציק וניא `%s'"
 
 #: src/main.c:754
 msgid "Required argument is missing"
-msgstr "Obligatoriskt argument saknas"
+msgstr "ונייצל חרכהש טנמוגרא רסח"
 
 #: src/main.c:797
 #, c-format
 msgid "Syntax is deprecated, please prefer `%s'"
-msgstr "Fצrוldrad syntax, anvהnd hellre \"%s\""
+msgstr "`%s' ףדעה אנא אבהל ,ןשוימ ריבחתב תשמתשה"
 
 #: src/main.c:803
 #, c-format
 msgid "Request `%s' is erroneous"
-msgstr "Begהran \"%s\" הr felaktig"
+msgstr "יוגש וניה `%s' המישמ ןויצ"
 
 #: src/main.c:903
 #, c-format
 msgid "Recoding %s..."
-msgstr "Omkodar %s..."
+msgstr "`%s' תרמתה"
 
+# FIXME: this is lame!  The method of printing "Frobbing...done"
+# does not lend itself to good translations into languages where
+# such sentences have a different structure, and should be rethought.
 #: src/main.c:913
 msgid " done\n"
-msgstr " klart\n"
+msgstr " החלצהב המייתסה\n"
 
 #: src/main.c:954
 #, c-format
 msgid " failed: %s in step `%s..%s'\n"
-msgstr " misslyckades: %s i steg \"%s..%s\"\n"
+msgstr "%s :לשכנ `%s..%s' הרמתה בלש\n"
 
 #: src/main.c:961
 #, c-format
 msgid "%s failed: %s in step `%s..%s'"
-msgstr "%s misslyckades: %s i steg \"%s..%s\""
+msgstr "%s ץבוק רובע %s בקע לשכנ `%s..%s' הרמתה בלש"
 
 #: src/main.c:984
 #, c-format
 msgid "%s in step `%s..%s'"
-msgstr "%s i steg \"%s..%s\""
+msgstr "%s :`%s..%s' הרמתה בלשב"
 
 #: src/names.c:335
 #, c-format
 msgid "Charset %s already exists and is not %s"
-msgstr "Teckenuppsהttning %s finns och הr inte %s"
+msgstr "םיוות תצובק לש (alias) יפולח יוניככ %s לש תמדוק הרדגה רטוס %s"
 
 #: src/names.c:831
 #, c-format
 msgid "Cannot list `%s', no names available for this charset"
-msgstr "Kan inte visa \"%s\", inga namn tillgהngliga fצr denna teckenuppsהttning"
+msgstr "םיינקת תומש ןיא וז הצובקמ םיוותל ןכש ,`%s' תא גיצהל ןתינ אל"
 
 #. code counter
 #. expected value for code counter
@@ -366,86 +351,88 @@ msgstr "Kan inte visa \"%s\", inga namn tillgהngliga fצr denna teckenuppsהttning
 #: src/names.c:984 src/names.c:1030
 #, c-format
 msgid "Dec  Oct Hex   UCS2  Mne  %s\n"
-msgstr "dec  okt hex   UCS2  mne  %s\n"
+msgstr "Dec  Oct Hex   UCS2  Mne  %s\n"
 
 #: src/names.c:1049
 #, c-format
 msgid "Sorry, no names available for `%s'"
-msgstr "Ledsen, men det finns inga namn tillgהngliga fצr \"%s\""
+msgstr "םיינקת תומש ןיא `%s' הצובקמ םיוותל ,םירעטצמ"
 
 #: src/outer.c:125
 #, c-format
 msgid "Resurfacer set more than once for `%s'"
-msgstr "Ytkodning satt mer הn en gוng fצr \"%s\""
+msgstr "`%s' רובע תחא םעפמ רתוי העבקנ הפיטע תרמתה"
 
 #: src/outer.c:133
 #, c-format
 msgid "Unsurfacer set more than once for `%s'"
-msgstr "Ytavkodning satt mer הn en gוng fצr \"%s\""
+msgstr "`%s' רובע תחא םעפמ רתוי העבקנ הפיטע תדרוה"
 
 #: src/recode.c:115 src/recode.c:127
 msgid "Virtual memory exhausted"
-msgstr "Virtuellt minne slut"
+msgstr "לזא ילאוטריו ןורכז"
 
 #: src/recode.c:155
-#, c-format
+#, c-format, ycp-format
 msgid "Codes %3d and %3d both recode to %3d"
-msgstr "Teckenkoderna %3d och %3d omkodas bוda till %3d"
+msgstr "%3d-מ ןהו %3d תרמתהמ ןה לבקתמ %3d דוק לעב ות"
 
 #: src/recode.c:169
-#, c-format
+#, c-format, ycp-format
 msgid "No character recodes to %3d"
-msgstr "Inget tecken omkodas till %3d"
+msgstr "%3d-ל רמתומ וניא ות םוש"
 
 #: src/recode.c:170
 msgid "Cannot invert given one-to-one table"
-msgstr "Kan inte invertera en given ett-till-ett tabell"
+msgstr "הכיפהל תנתינ הניא הרדגוהש הרמתה תלבט"
 
 #: src/recode.c:224 src/recode.c:236
 #, c-format
 msgid "Following diagnostics for `%s' to `%s'"
-msgstr "Fצljande fel הr fצr \"%s\" till \"%s\""
+msgstr "`%s'-מ `%s'-ל הרמתה רובע הניה האבה הלקתה תעדוה"
 
 #: src/recode.c:229 src/recode.c:241
 #, c-format
 msgid "Pair no. %d: <%3d, %3d> conflicts with <%3d, %3d>"
-msgstr "Par nr. %d: <%3d, %3d> הr i konflikt med <%3d, %3d>"
+msgstr "%d ורפסמש <%3d, %3d> גוזה תא רטוס <%3d, %3d> גוזה"
 
 #: src/recode.c:272
 msgid "Cannot complete table from set of known pairs"
-msgstr "Kan inte gצra en tabell frוn mהngden av kהnda par"
+msgstr "םיעודיה תוגוזה תצובק ךותמ הלבט םילשהל תורשפא ןיא"
 
 #: src/recode.c:497
 msgid "Identity recoding, not worth a table"
-msgstr "Ingen omkodning behצvs, den הr inte vהrd en tabell"
+msgstr "הלבטל הקדצה ןיא ,(תוהז) הדיחי תרמתה"
 
 #: src/recode.c:504
 msgid "Recoding is too complex for a mere table"
-msgstr "Omkodning הr fצr komplex fצr en enkel tabell"
+msgstr "הלבטכ הגיצהל היהי רשפאש ידכמ תבכרומ הרמתה"
 
+# FIXME: this goes into a comment; is it really worth translating?
 #. Print the header of the header file.
 #: src/recode.c:536
 #, c-format
 msgid "%sConversion table generated mechanically by Free `%s' %s"
-msgstr "%sKonverteringstabell automatgenererad av Fri \"%s\" %s"
+msgstr "%sFree `%s' תינכות לש %s אסריג י\"ע הבשוחש הרמתה תלבט"
 
 #: src/recode.c:538
 #, c-format
 msgid "%sfor sequence %s.%s"
-msgstr "%sfצr sekvens %s.%s"
+msgstr "%s                               .%s תורמתה תרדס רובע%s"
 
 #: src/recode.c:744
 msgid "No table to print"
-msgstr "Ingen tabell att skriva ut"
+msgstr "הספדהל הלבט ןיא"
 
 #: src/request.c:34
 msgid "reversible"
-msgstr "reversibel"
+msgstr "ךיפה"
 
+# FIXME: these assume left-to-right direction.  What else can I do?
 #: src/request.c:36
 #, c-format
 msgid "%s to %s"
-msgstr "%s till %s"
+msgstr "%s -> %s"
 
 #: src/request.c:37 src/request.c:39
 msgid "byte"
@@ -453,61 +440,61 @@ msgstr "byte"
 
 #: src/request.c:38 src/request.c:40
 msgid "ucs2"
-msgstr "usc2"
+msgstr "ucs2"
 
 #: src/request.c:38 src/request.c:40
 msgid "variable"
-msgstr "variabel"
+msgstr "variable"
 
 #: src/request.c:111
 msgid "*Unachievable*"
-msgstr "*Omצjligt*"
+msgstr "הגשהל ןתינ-יתלב*"
 
 #: src/request.c:113
 msgid "*mere copy*"
-msgstr "*endast kopiering*"
+msgstr "*הטושפ הקתעה*"
 
 #: src/request.c:246
 msgid "Virtual memory exhausted!"
-msgstr "Virtuellt minne slut!"
+msgstr "!לזא ילאוטריו ןורכז"
 
 #: src/request.c:265
 msgid "Step initialisation failed"
-msgstr "Steginitiering misslyckades"
+msgstr "לשכנ בלשה לוחתא"
 
 #: src/request.c:272
 msgid "Step initialisation failed (unprocessed options)"
-msgstr "Steginitiering misslyckades (obearbetade flaggor)"
+msgstr "(ודבוע אל םינייפאמ המכ) לשכנ בלשה לוחתא"
 
 #: src/request.c:568
 #, c-format
 msgid "Request: %s\n"
-msgstr "Begהran: %s\n"
+msgstr "%s :המישמ\n"
 
 #: src/request.c:720
 #, c-format
 msgid "Shrunk to: %s\n"
-msgstr "Krympte till: %s\n"
+msgstr "%s -:ל המצמטצה\n"
 
 #: src/request.c:823 src/request.c:932
 #, c-format
 msgid "Unrecognised surface name `%s'"
-msgstr "Okהnt ytnamn \"%s\""
+msgstr "רכומ הפיטע םש וניא `%s'"
 
 #: src/request.c:903
 #, c-format
 msgid "No way to recode from `%s' to `%s'"
-msgstr "Omצjligt koda om frוn \"%s\" till \"%s\""
+msgstr "`%s'-מ `%s'-ל הרמתה תורשפא ןיא"
 
 #: src/request.c:1013
 msgid "Expecting `..' in request"
-msgstr "Fצrvהntar \"..\" i begהran"
+msgstr "`..' לולכל היה רומא המישמה ןויצ"
 
 #: src/task.c:826 src/task.c:1002
 #, c-format
 msgid "Child process wait status is 0x%0.2x"
-msgstr "Barnprocessens slutstatus הr 0x%0.2x"
+msgstr "0x%0.2x אוה תב-תינכת םויס דוק"
 
 #: src/testdump.c:298
 msgid "UCS2   Mne   Description\n\n"
-msgstr "UCS2   Mne   Beskrivning\n\n"
+msgstr "UCS2  ינומנמ     רואית\n\n"

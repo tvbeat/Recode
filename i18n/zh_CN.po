@@ -1,50 +1,50 @@
-# Swedish messages for recode
-# Copyright � 1996, 1998, 2001 Free Software Foundation, Inc.
-# Jan Dj�rv <Jan.Djarv@mbox200.swipnet.se>, 1996, 1998, 2001.
-# Revision: 1.16
+# Simplified Chinese translation for recode.
+# Copyright (C) 2005 Free Software Foundation, Inc.
+# Meng Jie <zuxyhere@eastday.com>, 2005.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: recode 3.6\n"
 "POT-Creation-Date: 2001-01-02 22:35+0100\n"
-"PO-Revision-Date: 2001-06-12 12:54+0100\n"
-"Last-Translator: Jan Dj�rv <Jan.Djarv@mbox200.swipnet.se>\n"
-"Language-Team: Swedish <sv@li.org>\n"
+"PO-Revision-Date: 2005-12-03 21:43+0800\n"
+"Last-Translator: Meng Jie <zuxyhere@eastday.com>\n"
+"Language-Team: Chinese (simplified) <i18n-translation@lists.linux.net.cn>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: z:\\recode-3.6\n"
 
 #: src/main.c:142
 msgid "No error"
-msgstr "Inget fel"
+msgstr "没有错误"
 
 #: src/main.c:145
 msgid "Non canonical input"
-msgstr "Indata ej kanonisk"
+msgstr "不正规的输入"
 
 #: src/main.c:148
 msgid "Ambiguous output"
-msgstr "Tvetydig utdata"
+msgstr "有歧义的输出"
 
 #: src/main.c:151
 msgid "Untranslatable input"
-msgstr "O�vers�ttbar indata"
+msgstr "无法翻译的输入"
 
 #: src/main.c:154
 msgid "Invalid input"
-msgstr "Felaktig indata"
+msgstr "无效的输入"
 
 #: src/main.c:157
 msgid "System detected problem"
-msgstr "Systemproblem uppt�cktes"
+msgstr "系统问题"
 
 #: src/main.c:160
 msgid "Misuse of recoding library"
-msgstr "Felaktig anv�ndning av omkodningsbibliotek"
+msgstr "对重新编码库的使用不正确"
 
 #: src/main.c:163
 msgid "Internal recoding bug"
-msgstr "Internt omkodningsfel"
+msgstr "内部重新编码缺陷"
 
 #: src/main.c:208
 msgid ""
@@ -62,37 +62,35 @@ msgid ""
 "along with this program; if not, write to the Free Software Foundation,\n"
 "Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.\n"
 msgstr ""
-"F�ljande text �r en informell �vers�ttning som enbart tillhandah�lls i\n"
-"informativt syfte. F�r alla juridiska tolkningar g�ller den engelska\n"
-"originaltexten.\n"
+"此程序是自由软件；您可以在自由软件基金会发布的 GNU 通用公共许\n"
+"可证的条款下重新分发和(或)修改它；您可以选择使用 GPL 第二版，\n"
+"或(按照您的意愿)任何更新的版本。\n"
 "\n"
-"Detta program �r fri programvara.  Du kan distribuera den och/eller modifiera\n"
-"den under villkoren i GNU General Public License, publicerad av\n"
-"Free Software Foundation, antingen version 2 eller (om du s� vill)\n"
-"n�gon senare version.\n"
+"该程序分发的目的是为了其他人可以使用它，但是没有任何担保；也没\n"
+"有对其适销性和某一特定目的下的适用性的担保。请查阅 GNU 通用公\n"
+"共许可证来获得更多的信息。\n"
 "\n"
-"Detta program distribueras i hopp om att det ska vara anv�ndbart,\n"
-"men UTAN N�GON SOM HELST GARANTI, �ven utan den underf�rst�dda garantin\n"
-"om S�LJBARHET eller L�MPLIGHET F�R N�GOT SPECIELLT �NDAM�L. Se GNU General\n"
-"Public License f�r ytterligare information.\n"
-"\n"
-"Du b�r ha f�tt en kopia av GNU General Public License\n"
-"tillsammans med detta program. Om inte, skriv till Free Software Foundation,\n"
-"Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.\n"
+"你应该已经跟本程序一起收到一份 GNU 通用公共许可证；如果没有，\n"
+"请写信至：Free Software Foundation, Inc., \n"
+"59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.\n"
 
 #: src/main.c:233
 #, c-format
 msgid "Try `%s %s' for more information.\n"
-msgstr "F�rs�k med \"%s %s\" f�r mer information\n"
+msgstr "请尝试执行‘%s %s’以得到更多信息。\n"
 
 #: src/main.c:237
 msgid "Free `recode' converts files between various character sets and surfaces.\n"
-msgstr "Fria \"recode\" konverterar filer mellan olika teckenupps�ttningar och ytor.\n"
+msgstr "自由的‘recode’将文件在不同的字符集和外在编码间转换。\n"
 
 #: src/main.c:241
 #, c-format
-msgid "\nUsage: %s [OPTION]... [ [CHARSET] | REQUEST [FILE]... ]\n"
-msgstr "\nAnv�ndning: %s [FLAGGA]... [ [TECKENUPPS�TTNING] | BEG�RAN [FIL]...]\n"
+msgid ""
+"\n"
+"Usage: %s [OPTION]... [ [CHARSET] | REQUEST [FILE]... ]\n"
+msgstr ""
+"\n"
+"用法：%s [选项]... [ [字符集] | 请求 [文件]...]\n"
 
 #: src/main.c:244
 msgid ""
@@ -101,8 +99,7 @@ msgid ""
 "for the equivalent short option also.  Similarly for optional arguments.\n"
 msgstr ""
 "\n"
-"Om en l�ng flagga har ett obligatoriskt argument s� �r argumentet �ven\n"
-"obligatoriskt f�r motsvarade korta flagga.  Motsvarande f�r valfria argument.\n"
+"长选项必须带的参数在使用与之等价的短选项时也是必须的。可选参数亦是如此。\n"
 
 #: src/main.c:250
 msgid ""
@@ -118,17 +115,15 @@ msgid ""
 "      --version              output version information and exit\n"
 msgstr ""
 "\n"
-"Listningar:\n"
-"  -l, --list[=FORMAT]        visa en eller alla k�nda teckenupps�ttningar\n"
-"  -k, --known=PAR            begr�nsa teckenupps�ttningar till de i PAR-listan\n"
-"  -h, --header[=[LN/]NAMN]   skriv tabell NAMN f�r LN till standard ut\n"
-"                             och avsluta.\n"
-"  -F, --freeze-tables        skriv ut en C modul med alla tabeller\n"
-"  -T, --find-subsets         skriv ut teckenupps�ttningar som �r delm�ngder\n"
-"                             av andra\n"
-"  -C, --copyright            visa copyrightinformation och kopieringsvillkor\n"
-"      --help                 visa denna hj�lptext och avsluta\n"
-"      --version              visa versionsinformation och avsluta\n"
+"列表:\n"
+"  -l，--list[=格式]          列出某个或所有已知的字符集和别名\n"
+"  -k，--known=映射           仅列出匹配已知“映射”列表的字符集\n"
+"  -h，--header[=[语言/]表名] 在标准输出上输出符合某语言语法的转换表，然后退出\n"
+"  -F，--freeze-tables        输出一个包括所有转换表的 C 模块\n"
+"  -T，--find-subsets         报告所有是其他字符集子集的字符集\n"
+"  -C，--copyright            显示版权信息和复制条件\n"
+"      --help                 显示本帮助信息后退出\n"
+"      --version              输出版本信息后退出\n"
 
 #: src/main.c:263
 msgid ""
@@ -142,21 +137,21 @@ msgid ""
 "      --sequence=memory   use memory buffers for sequencing passes\n"
 msgstr ""
 "\n"
-"Exekveringsalternativ:\n"
-"  -v, --verbose           f�rklara delsteg och rapportera framsteg\n"
-"  -q, --quiet, --silent   undertryck meddelanden om irreversibla omkodningar\n"
-"  -f, --force             g�r omkodning �ven n�r den �r irreversibel\n"
-"  -t, --touch             g�r \"touch\" p� filer som omkodas �ver sig sj�lva\n"
-"  -i, --sequence=files    anv�nd tempor�rfiler mellan delsteg\n"
-"      --sequence=memory   anv�nd minnesbuffertar mellan delsteg\n"
+"操作模式：\n"
+"  -v，--verbose           报告转换步骤序列和过程\n"
+"  -q，--quiet，--silent   不报告不可逆的重新编码\n"
+"  -f，--force             强制进行不可逆的重新编码\n"
+"  -t，--touch             在替换之后 touch 重新编码的文件\n"
+"  -i，--sequence=files    为系列转换使用中间文件\n"
+"      --sequence=memory   为系列转换使用内存缓冲区\n"
 
 #: src/main.c:275
 msgid "  -p, --sequence=pipe     use pipe machinery for sequencing passes\n"
-msgstr "  -p, --sequence=pipe     anv�nd r�r mellan delsteg\n"
+msgstr "  -p，--sequence=pipe     为系列转换使用管道机制\n"
 
 #: src/main.c:280
 msgid "  -p, --sequence=pipe     same as -i (on this system)\n"
-msgstr "  -p, --sequence=pipe     samma sak som -i (p� detta system)\n"
+msgstr "  -p，--sequence=pipe     在此系统下与 -i 等效\n"
 
 #: src/main.c:285
 msgid ""
@@ -170,16 +165,13 @@ msgid ""
 "  -x, --ignore=CHARSET   ignore CHARSET while choosing a recoding path\n"
 msgstr ""
 "\n"
-"Finjustering:\n"
-"  -s, --strict           anv�nd strikt omkodning, till�t teckenf�rluster\n"
-"  -d, --diacritics       omkoda endast diakritiska tecken eller motsvarande\n"
-"                         till HTML/LaTeX\n"
-"  -S, --source[=LN]      begr�nsa omkodning till str�ngar och kommentarer\n"
-"                         som f�r LN\n"
-"  -c, --colons           anv�nd kolon ist�llet f�r \" f�r trematecken\n"
-"  -g, --graphics         approximera linjer i IBMPC med ASCII grafik\n"
-"  -x, --ignore=TECKENUPPS�TTNING\n"
-"                         ignorera TECKENUPPS�TTNING n�r omkodningsv�g v�ljs\n"
+"细节调整：\n"
+"  -s，--strict           即使为可放松的字符也使用严格映射\n"
+"  -d，--diacritics       只为 HTML/LaTeX 转换变音记号等\n"
+"  -S，--source[=语言]    将重新编码的范围限制在某编程语言的字符串和注释中\n"
+"  -c，--colons           使用冒号而不是双引号来表示分音符\n"
+"  -g，--graphics         用 ASCII 符号模拟 IBMPC 标尺\n"
+"  -x，--ignore=字符集    在选择重新编码途径时忽略某字符集\n"
 
 #: src/main.c:296
 msgid ""
@@ -188,18 +180,17 @@ msgid ""
 "FORMAT is `decimal', `octal', `hexadecimal' or `full' (or one of `dohf').\n"
 msgstr ""
 "\n"
-"Flagga -l utan FORMAT och TECKENUPPS�TTNING visar alla tillg�ngliga\n"
-"teckenupps�ttningar och ytor.  FORMAT �r \"decimal\", \"octal\", \"hexadecimal\"\n"
-"eller \"full\" (eller en av \"dohf\").\n"
+"选项 -l 后如果没有指定“格式”或“字符集”，则列出所有可用的字符集和外在编码。\n"
+"“格式”可以为‘decimal’、‘octal’、‘hexadecimal’或‘full’(或者‘dohf’\n"
+"中的任一个字母)。\n"
 
 #: src/main.c:302
 msgid ""
 "Unless DEFAULT_CHARSET is set in environment, CHARSET defaults to the locale\n"
 "dependent encoding, determined by LC_ALL, LC_CTYPE, LANG.\n"
 msgstr ""
-"Om milj�variabeln DEFAULT_CHARSET inte �r satt blir standardv�rdet f�r\n"
-"TECKENUPPS�TTNING den lokalspecifika kodningen, som best�ms av\n"
-"milj�variablerna LC_ALL, LC_CTYPE och LANG.\n"
+"如果没有设置 DEFAULT_CHARSET 环境变量，字符集默认为区域选项的编码，由 LC_ALL、\n"
+"LC_CTYPE、LANG 决定。\n"
 
 #: src/main.c:307
 msgid ""
@@ -207,14 +198,13 @@ msgid ""
 "both being tabular charsets, with PAIRS of the form `BEF1:AFT1,BEF2:AFT2,...'\n"
 "and BEFs and AFTs being codes are given as decimal numbers.\n"
 msgstr ""
-"Med -k, m�jliga startupps�ttningar visas f�r den givna slutupps�ttningen,\n"
-"d�r b�da teckenupps�ttningar �r p� tabellform. PAR har formatet\n"
-"\"START1:SLUT1,START2:SLUT2,...\" och START... och SLUT... �r koder\n"
-"som anges med decimala tal.\n"
+"使用 -k 时，目标字符集可能对应的所有的源字符集都将列出，两者均为表格化的字符\n"
+"集，“映射”具有‘源1:目标1,源2:目标2,...’的形式，其中“源x”和“目标x”均\n"
+"须以十进制数的形式给出。\n"
 
 #: src/main.c:312
 msgid "LN is some language, it may be `c', `perl' or `po'; `c' is the default.\n"
-msgstr "LN �r ett spr�k, det kan vara \"c\", \"perl\" eller \"po\"; \"c\" �r standardv�rde.\n"
+msgstr "“语言”是某种编码语言，可以为‘c’、‘perl’或‘po’，‘c’为默认值。\n"
 
 #: src/main.c:315
 msgid ""
@@ -226,12 +216,11 @@ msgid ""
 "with an empty surface name means no surfaces at all.  See the manual.\n"
 msgstr ""
 "\n"
-"BEG�RAN �r DELBEG�RAN[,DELBEG�RAN]..., DELBEG�RAN �r KODNING[..KODNING]...\n"
-"KODNING �r [TECKENUPPS�TTNING][/[YTA]].... BEG�RAN ser ofta ut som START..SLUT,\n"
-"d�r START och SLUT �r teckenupps�ttningar.  Ett utel�mnat TECKENUPPS�TTNING\n"
-"inneb�r den normala teckenupps�ttningen,\n"
-"en utel�mnad [/YTA]... inneb�r den normala ytan f�r TECKENUPPS�TTNING.\n"
-"Ett / utan ytnamn inneb�r ingen yta alls.  Se manualen f�r detaljer.\n"
+"“请求”格式为“子请求[,子请求]...”；“子请求”格式为“编码[..编码]...”\n"
+"“编码”格式为“[字符集][/[外在编码]]...”；“请求”一般有“源..目的”的形式，\n"
+"“源”和“目的”均为字符集名。如果省略“字符集”，则表示通常的字符集；如果省略\n"
+"“[/外在编码]...”则表示“字符集”默认的外在编码；只给出“/”而在其后不给出任\n"
+"何外在编码则表示没有任何外在编码。详情请参见手册。\n"
 
 #: src/main.c:323
 msgid ""
@@ -241,123 +230,126 @@ msgid ""
 "FILE is specified, then act as a filter and recode stdin to stdout.\n"
 msgstr ""
 "\n"
-"Om ingen av -i eller -p �r given s� antas -p on ingen FIL �r given,\n"
-"annars -i.  Varje fil omkodas �ver sig sj�lv och f�rst�r originalet.\n"
-"Om ingen FIL anges s� blir beteendet ett filter som omkodar standard in\n"
-"till standard ut.\n"
+"如果没有给出 -i 或 -p，当命令行中有文件时使用 -p，否则使用 -i。\n"
+"为每个文件就地重新编码，丢弃其原始内容。如果没有在命令行中指定文件，\n"
+"则将标准输入的内容重新编码为标准输出。\n"
 
 #: src/main.c:329
-msgid "\nReport bugs to <recode-bugs@iro.umontreal.ca>.\n"
+msgid ""
+"\n"
+"Report bugs to <recode-bugs@iro.umontreal.ca>.\n"
 msgstr ""
 "\n"
-"Rapportera fel till <recode-bugs@iro.umontreal.ca>.\n"
-"Rapportera fel p� �vers�ttningen till <sv@li.org>.\n"
+"请向 <recode-bugs@iro.umontreal.ca> 报告程序缺陷。\n"
 
 #: src/main.c:430
 #, c-format
 msgid "Sequence `%s' is ambiguous"
-msgstr "Sekvens \"%s\" �r tvetydig"
+msgstr "序列‘%s’意义不明确"
 
 #: src/main.c:434
 #, c-format
 msgid "Sequence `%s' is unknown"
-msgstr "Sekvens \"%s\" �r ok�nd"
+msgstr "序列‘%s’未知"
 
 #: src/main.c:464 src/main.c:522
 #, c-format
 msgid "Language `%s' is ambiguous"
-msgstr "Spr�k \"%s\" �r tvetydigt"
+msgstr "语言‘%s’意义不明确"
 
 #. -1
 #: src/main.c:468 src/main.c:526
 #, c-format
 msgid "Language `%s' is unknown"
-msgstr "Spr�k \"%s\" �r ok�nt"
+msgstr "语言‘%s’未知"
 
 #: src/main.c:560
 #, c-format
 msgid "Format `%s' is ambiguous"
-msgstr "Format \"%s\" �r tvetydigt"
+msgstr "格式‘%s’意义不明确"
 
 #: src/main.c:564
 #, c-format
 msgid "Format `%s' is unknown"
-msgstr "Format \"%s\" �r ok�nt"
+msgstr "格式‘%s’未知"
 
 #: src/main.c:621
 msgid "Written by Franc,ois Pinard <pinard@iro.umontreal.ca>.\n"
-msgstr "Skriven av Fran�ois Pinard <pinard@iro.umontreal.ca>.\n"
+msgstr "由 Francois Pinard <pinard@iro.umontreal.ca> 编写。\n"
 
 #: src/main.c:624
-msgid "\nCopyright (C) 1990, 92, 93, 94, 96, 97, 99 Free Software Foundation, Inc.\n"
-msgstr "\nCopyright � 1990, 92, 93, 94, 96, 97, 1999 Free Software Foundation, Inc.\n"
+msgid ""
+"\n"
+"Copyright (C) 1990, 92, 93, 94, 96, 97, 99 Free Software Foundation, Inc.\n"
+msgstr ""
+"\n"
+"版权所有 (C) 1990，92，93，94，96，97，99 自由软件基金会。\n"
 
 #: src/main.c:628
 msgid ""
 "This is free software; see the source for copying conditions.  There is NO\n"
 "warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.\n"
 msgstr ""
-"Detta �r fri programvara; se k�llkoden f�r kopieringsvillkor.  Det finns\n"
-"INGEN garanti; inte ens f�r S�LJBARHET eller L�MPLIGHET F�R N�GOT SPECIELLT\n"
-"�NDAM�L.\n"
+"本程序是自由软件；请参看源代码的版权声明。本软件不提供任何担保；\n"
+"包括没有适销性和某一专用目的下的适用性担保。\n"
 
 #: src/main.c:669
 #, c-format
 msgid "Symbol `%s' is unknown"
-msgstr "Symbol \"%s\" �r ok�nd"
+msgstr "符号‘%s’未知"
 
 #: src/main.c:709 src/main.c:723
 #, c-format
 msgid "Charset `%s' is unknown or ambiguous"
-msgstr "Teckenupps�ttning \"%s\" �r ok�nd eller tvetydig"
+msgstr "字符集‘%s’未知或有歧义"
 
 #: src/main.c:754
 msgid "Required argument is missing"
-msgstr "Obligatoriskt argument saknas"
+msgstr "缺少需要的参数"
 
 #: src/main.c:797
 #, c-format
 msgid "Syntax is deprecated, please prefer `%s'"
-msgstr "F�r�ldrad syntax, anv�nd hellre \"%s\""
+msgstr "语法已过时，请改用‘%s’"
 
 #: src/main.c:803
 #, c-format
 msgid "Request `%s' is erroneous"
-msgstr "Beg�ran \"%s\" �r felaktig"
+msgstr "请求‘%s’有错误"
 
 #: src/main.c:903
 #, c-format
 msgid "Recoding %s..."
-msgstr "Omkodar %s..."
+msgstr "重新编码 %s..."
 
 #: src/main.c:913
 msgid " done\n"
-msgstr " klart\n"
+msgstr " 完成\n"
 
 #: src/main.c:954
 #, c-format
 msgid " failed: %s in step `%s..%s'\n"
-msgstr " misslyckades: %s i steg \"%s..%s\"\n"
+msgstr " 失败：%s 在步骤‘%s..%s’中\n"
 
 #: src/main.c:961
 #, c-format
 msgid "%s failed: %s in step `%s..%s'"
-msgstr "%s misslyckades: %s i steg \"%s..%s\""
+msgstr "%s 失败：%s 在步骤‘%s..%s’中"
 
 #: src/main.c:984
 #, c-format
 msgid "%s in step `%s..%s'"
-msgstr "%s i steg \"%s..%s\""
+msgstr "%s 在步骤‘%s..%s’中"
 
 #: src/names.c:335
 #, c-format
 msgid "Charset %s already exists and is not %s"
-msgstr "Teckenupps�ttning %s finns och �r inte %s"
+msgstr "字符集 %s 已存在且并非 %s"
 
 #: src/names.c:831
 #, c-format
 msgid "Cannot list `%s', no names available for this charset"
-msgstr "Kan inte visa \"%s\", inga namn tillg�ngliga f�r denna teckenupps�ttning"
+msgstr "无法列出‘%s’，此字符集没有可用的字符名"
 
 #. code counter
 #. expected value for code counter
@@ -366,148 +358,152 @@ msgstr "Kan inte visa \"%s\", inga namn tillg�ngliga f�r denna teckenupps�ttning
 #: src/names.c:984 src/names.c:1030
 #, c-format
 msgid "Dec  Oct Hex   UCS2  Mne  %s\n"
-msgstr "dec  okt hex   UCS2  mne  %s\n"
+msgstr "十   八  十六  UCS2  助记 %s\n"
 
 #: src/names.c:1049
 #, c-format
 msgid "Sorry, no names available for `%s'"
-msgstr "Ledsen, men det finns inga namn tillg�ngliga f�r \"%s\""
+msgstr "对不起，‘%s’没有可用的字符名"
 
 #: src/outer.c:125
 #, c-format
 msgid "Resurfacer set more than once for `%s'"
-msgstr "Ytkodning satt mer �n en g�ng f�r \"%s\""
+msgstr "为‘%s’施加了多于一个的外在编码"
 
 #: src/outer.c:133
 #, c-format
 msgid "Unsurfacer set more than once for `%s'"
-msgstr "Ytavkodning satt mer �n en g�ng f�r \"%s\""
+msgstr "为‘%s’去除了多于一个的外在编码"
 
 #: src/recode.c:115 src/recode.c:127
 msgid "Virtual memory exhausted"
-msgstr "Virtuellt minne slut"
+msgstr "虚拟内存耗尽"
 
 #: src/recode.c:155
-#, c-format
+#, c-format, ycp-format
 msgid "Codes %3d and %3d both recode to %3d"
-msgstr "Teckenkoderna %3d och %3d omkodas b�da till %3d"
+msgstr "代码 %3d 和 %3d 都将被重新编码为 %3d"
 
 #: src/recode.c:169
-#, c-format
+#, c-format, ycp-format
 msgid "No character recodes to %3d"
-msgstr "Inget tecken omkodas till %3d"
+msgstr "没有字符集可重新编码到 %3d"
 
 #: src/recode.c:170
 msgid "Cannot invert given one-to-one table"
-msgstr "Kan inte invertera en given ett-till-ett tabell"
+msgstr "无法求出给定的一一对应转换表的逆"
 
 #: src/recode.c:224 src/recode.c:236
 #, c-format
 msgid "Following diagnostics for `%s' to `%s'"
-msgstr "F�ljande fel �r f�r \"%s\" till \"%s\""
+msgstr "‘%s’到‘%s’的诊断信息"
 
 #: src/recode.c:229 src/recode.c:241
 #, c-format
 msgid "Pair no. %d: <%3d, %3d> conflicts with <%3d, %3d>"
-msgstr "Par nr. %d: <%3d, %3d> �r i konflikt med <%3d, %3d>"
+msgstr "第 %d 号映射：<%3d，%3d> 与 <%3d，%3d> 冲突"
 
 #: src/recode.c:272
 msgid "Cannot complete table from set of known pairs"
-msgstr "Kan inte g�ra en tabell fr�n m�ngden av k�nda par"
+msgstr "无法从已知映射集中形成完整的转换表"
 
 #: src/recode.c:497
 msgid "Identity recoding, not worth a table"
-msgstr "Ingen omkodning beh�vs, den �r inte v�rd en tabell"
+msgstr "恒等变换，不需要转换表"
 
 #: src/recode.c:504
 msgid "Recoding is too complex for a mere table"
-msgstr "Omkodning �r f�r komplex f�r en enkel tabell"
+msgstr "重新编码太过复杂，无法以一张转换表表示"
 
 #. Print the header of the header file.
 #: src/recode.c:536
 #, c-format
 msgid "%sConversion table generated mechanically by Free `%s' %s"
-msgstr "%sKonverteringstabell automatgenererad av Fri \"%s\" %s"
+msgstr "%sConversion table generated mechanically by Free `%s' %s"
 
 #: src/recode.c:538
 #, c-format
 msgid "%sfor sequence %s.%s"
-msgstr "%sf�r sekvens %s.%s"
+msgstr "%s为转换系列 %s.%s"
 
 #: src/recode.c:744
 msgid "No table to print"
-msgstr "Ingen tabell att skriva ut"
+msgstr "没有可以打印的转换表"
 
 #: src/request.c:34
 msgid "reversible"
-msgstr "reversibel"
+msgstr "可逆的"
 
 #: src/request.c:36
 #, c-format
 msgid "%s to %s"
-msgstr "%s till %s"
+msgstr "%s 到 %s"
 
 #: src/request.c:37 src/request.c:39
 msgid "byte"
-msgstr "byte"
+msgstr "字节"
 
 #: src/request.c:38 src/request.c:40
 msgid "ucs2"
-msgstr "usc2"
+msgstr "ucs2"
 
 #: src/request.c:38 src/request.c:40
 msgid "variable"
-msgstr "variabel"
+msgstr "变量"
 
 #: src/request.c:111
 msgid "*Unachievable*"
-msgstr "*Om�jligt*"
+msgstr "*无法到达*"
 
 #: src/request.c:113
 msgid "*mere copy*"
-msgstr "*endast kopiering*"
+msgstr "*仅复制*"
 
 #: src/request.c:246
 msgid "Virtual memory exhausted!"
-msgstr "Virtuellt minne slut!"
+msgstr "虚拟内存耗尽！"
 
 #: src/request.c:265
 msgid "Step initialisation failed"
-msgstr "Steginitiering misslyckades"
+msgstr "步骤初始化失败"
 
 #: src/request.c:272
 msgid "Step initialisation failed (unprocessed options)"
-msgstr "Steginitiering misslyckades (obearbetade flaggor)"
+msgstr "步骤初始化失败(未处理的选项)"
 
 #: src/request.c:568
 #, c-format
 msgid "Request: %s\n"
-msgstr "Beg�ran: %s\n"
+msgstr "请求：%s\n"
 
 #: src/request.c:720
 #, c-format
 msgid "Shrunk to: %s\n"
-msgstr "Krympte till: %s\n"
+msgstr "缩减到：%s\n"
 
 #: src/request.c:823 src/request.c:932
 #, c-format
 msgid "Unrecognised surface name `%s'"
-msgstr "Ok�nt ytnamn \"%s\""
+msgstr "无法识别的外在编码‘%s’"
 
 #: src/request.c:903
 #, c-format
 msgid "No way to recode from `%s' to `%s'"
-msgstr "Om�jligt koda om fr�n \"%s\" till \"%s\""
+msgstr "没有从‘%s’重新编码至‘%s’的途径"
 
 #: src/request.c:1013
 msgid "Expecting `..' in request"
-msgstr "F�rv�ntar \"..\" i beg�ran"
+msgstr "请求中要有‘..’"
 
 #: src/task.c:826 src/task.c:1002
 #, c-format
 msgid "Child process wait status is 0x%0.2x"
-msgstr "Barnprocessens slutstatus �r 0x%0.2x"
+msgstr "子进程等待状态为 0x%0.2x"
 
 #: src/testdump.c:298
-msgid "UCS2   Mne   Description\n\n"
-msgstr "UCS2   Mne   Beskrivning\n\n"
+msgid ""
+"UCS2   Mne   Description\n"
+"\n"
+msgstr ""
+"UCS2   助记     描述\n"
+"\n"
